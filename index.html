@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Georgia&display=swap" rel="stylesheet">
     <!-- Link to your custom stylesheet -->
     <link rel="stylesheet" href="style.css">
+    <!-- html2canvas for generating images from HTML -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 </head>
 <body>
     <header class="header">
@@ -21,6 +23,7 @@
         <div class="card" id="current-card">
             <div class="card-inner">
                 <div class="card-front">
+                    <div class="card-branding">Conscious Cards</div> <!-- Added branding to front -->
                     <h2 id="card-concept" class="card-title"></h2>
                     <div class="card-front-content">
                         <p class="card-label">Journal Prompt:</p>
@@ -33,6 +36,7 @@
                     </button>
                 </div>
                 <div class="card-back">
+                    <div class="card-branding card-branding-back">Conscious Cards</div> <!-- Added branding to back -->
                     <h3 id="card-concept-back" class="card-title card-title-back"></h3> <!-- Concept on the back -->
                     <div class="card-back-content">
                         <p class="card-label">Suggested Actions:</p>
@@ -48,7 +52,7 @@
                 </div>
             </div>
             <!-- Message for share feedback -->
-            <div id="copy-message" class="copy-message hidden">Email prepared!</div>
+            <div id="copy-message" class="copy-message hidden">Image downloaded! Attach to email.</div>
         </div>
         <div class="card-buttons">
             <button id="share-card-btn" class="action-button share-button">Share with a friend</button>
