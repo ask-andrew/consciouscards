@@ -52,19 +52,20 @@ p {
     max-width: 700px; /* Max width for desktop */
     margin-bottom: 30px; /* Space between card and buttons */
     position: relative; /* For copy message positioning */
-    /* min-height removed to allow dynamic sizing */
+    /* min-height is now controlled by card-inner */
 }
 
 /* Inner card element for the flip animation */
 .card-inner {
-    position: relative;
-    width: 100%;
-    min-height: 250px; /* Ensure a minimum height for the inner container even with short content */
+    position: relative; /* Crucial for absolute positioning of faces */
+    height: auto; /* Allow height to be determined by content */
+    min-height: 250px; /* Baseline for very short content */
+    padding: 40px; /* Padding moved to the inner container */
+    box-sizing: border-box; /* Include padding in element's total width and height */
     text-align: center;
     transition: transform 0.8s; /* Smooth transition for the flip */
     transform-style: preserve-3d; /* Key for 3D transform */
     border-radius: inherit; /* Inherit border-radius from parent */
-    /* height: 100%; removed to allow content to define height */
 }
 
 /* Flipped state for the inner card */
@@ -74,71 +75,35 @@ p {
 
 /* Front and Back of the card */
 .card-front, .card-back {
-    position: absolute; /* Keep absolute for stacking */
+    position: absolute; /* Keep absolute for stacking and flip effect */
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 100%; /* Will take height of card-inner (which is now dynamic) */
+    height: 100%; /* Take 100% of the dynamically sized card-inner height */
     -webkit-backface-visibility: hidden; /* Hide the back side during flip */
     backface-visibility: hidden; /* Hide the back side during flip */
     border-radius: inherit;
-    padding: 40px;
-    box-sizing: border-box; /* Include padding in element's total width and height */
+    /* Padding is now on .card-inner, so remove it here */
+    box-sizing: border-box; /* Ensure proper box model */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; /* Center content vertically */
     align-items: center;
+    overflow-y: auto; /* Add scroll if content truly overflows */
+    word-wrap: break-word; /* Break long words */
+    overflow-wrap: break-word; /* Modern equivalent */
 }
 
 .card-front {
     /* Background set by JS, but keeping a fallback/initial for visual editor */
     background: linear-gradient(to bottom right, #64D9C3, #4AA094);
     color: #fff; /* White text for the front */
-    position: relative; /* Ensure it's positioned for its contents */
 }
 
 .card-back {
     background-color: #f8f8f8; /* Light background for the back of the card */
     color: #333; /* Dark text for the back of the card */
     transform: rotateY(180deg); /* Start rotated for the back */
-    position: absolute; /* Needs to be absolute to flip over the front */
-}
-
-/* To make the card's height dynamic based on the content,
-   the card-inner needs to be stretched by its content.
-   We achieve this by setting the height on the card-inner based on the content of card-front
-   and making card-front relative/non-absolute (or a flexible container).
-   Here, we'll ensure card-inner grows with the largest content side.
-   A common pattern is to make one side determine the height and the other match it.
-   Let's refine it by setting `display: flex` on `card-inner` and `align-items: stretch`.
-   However, with `position: absolute` on both `front` and `back`, we need to determine the height dynamically.
-   A simpler approach is to let `card-inner` grow with the height of the content within the `card-front`
-   by not having `card-front` be `position: absolute`, but instead be the main content.
-   Then `card-back` can be absolute and take its height.
-
-   Revising the approach:
-   - `card` has no `min-height`.
-   - `card-inner` has `min-height` for small content, and its `height` should be determined by content.
-   - `card-front` should NOT be `position: absolute`. It will dictate `card-inner`'s height.
-   - `card-back` REMAINS `position: absolute` and fills `card-inner`.
-*/
-
-/* Redefine card-front properties for dynamic height */
-.card-front {
-    position: relative; /* Change to relative or default flow */
-    height: auto; /* Let content define height */
-    /* All other existing styles like padding, flex, etc., remain */
-    background: linear-gradient(to bottom right, #64D9C3, #4AA094); /* Fallback/initial */
-    color: #fff;
-    border-radius: inherit; /* Ensure it keeps rounded corners */
-}
-
-/* Adjust card-back to stay absolute and fill new height */
-.card-back {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; /* Now correctly takes height of dynamically sized card-inner */
-    /* All other existing styles like transform, background, color, padding, flex remain */
 }
 
 .card-back-reflection-text {
@@ -195,9 +160,16 @@ p {
     text-shadow: none; /* No shadow needed on light background */
 }
 
+/* Content containers within front/back to manage flex layout for text */
+.card-front-content, .card-back-content {
+    flex-grow: 1; /* Allow content to take available space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    width: 100%; /* Ensure they take full width for text wrapping */
+}
 
-/* Animation for text content fade-in (applied via JS class to card-front-content) */
-/* This will now apply to elements within the card-front, which defines the height */
+/* Animation for text content fade-in (applied via JS class) */
 .card-front.text-fade-in > * { /* Target all direct children, including card-title and card-front-content */
     animation: fadeInUp 0.5s ease-out forwards;
     opacity: 0; /* Start hidden */
@@ -335,13 +307,12 @@ p {
     }
 
     .card {
-        padding: 0; /* Padding is now on card-front/back */
+        padding: 0; /* Padding is now on card-inner */
         width: 95%;
-        /* min-height will be determined by content */
     }
 
-    .card-front, .card-back {
-        padding: 30px;
+    .card-inner {
+        padding: 30px; /* Adjust padding for smaller screens */
         min-height: 180px; /* Ensure minimal content doesn't make it too small on mobile */
     }
 
@@ -372,12 +343,8 @@ p {
         padding: 30px 15px;
     }
 
-    .card {
-        /* min-height will be determined by content */
-    }
-
-    .card-front, .card-back {
-        padding: 20px;
+    .card-inner {
+        padding: 20px; /* Adjust padding for very small screens */
         border-radius: 8px;
         min-height: 150px; /* Even smaller min-height for very small screens */
     }
