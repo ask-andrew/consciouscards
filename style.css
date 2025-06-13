@@ -52,20 +52,19 @@ p {
     max-width: 700px; /* Max width for desktop */
     margin-bottom: 30px; /* Space between card and buttons */
     position: relative; /* For copy message positioning */
-    /* min-height is now controlled by card-inner */
+    /* min-height is now controlled by JavaScript on .card-inner */
 }
 
 /* Inner card element for the flip animation */
 .card-inner {
     position: relative; /* Crucial for absolute positioning of faces */
-    height: auto; /* Allow height to be determined by content */
-    min-height: 250px; /* Baseline for very short content */
-    padding: 40px; /* Padding moved to the inner container */
-    box-sizing: border-box; /* Include padding in element's total width and height */
+    height: auto; /* Managed by JavaScript */
+    min-height: 250px; /* Default baseline height, can be overridden by JS */
     text-align: center;
     transition: transform 0.8s; /* Smooth transition for the flip */
     transform-style: preserve-3d; /* Key for 3D transform */
     border-radius: inherit; /* Inherit border-radius from parent */
+    /* Padding is now applied directly to .card-front and .card-back again */
 }
 
 /* Flipped state for the inner card */
@@ -83,13 +82,13 @@ p {
     -webkit-backface-visibility: hidden; /* Hide the back side during flip */
     backface-visibility: hidden; /* Hide the back side during flip */
     border-radius: inherit;
-    /* Padding is now on .card-inner, so remove it here */
-    box-sizing: border-box; /* Ensure proper box model */
+    padding: 40px; /* Padding reinstated for individual faces */
+    box-sizing: border-box; /* Include padding in element's total width and height */
     display: flex;
     flex-direction: column;
     justify-content: center; /* Center content vertically */
     align-items: center;
-    overflow-y: auto; /* Add scroll if content truly overflows */
+    overflow-y: auto; /* Add scroll if content truly overflows (fallback) */
     word-wrap: break-word; /* Break long words */
     overflow-wrap: break-word; /* Modern equivalent */
 }
@@ -307,13 +306,16 @@ p {
     }
 
     .card {
-        padding: 0; /* Padding is now on card-inner */
         width: 95%;
     }
 
     .card-inner {
         padding: 30px; /* Adjust padding for smaller screens */
         min-height: 180px; /* Ensure minimal content doesn't make it too small on mobile */
+    }
+
+    .card-front, .card-back {
+        padding: 30px; /* Reinstated padding on faces */
     }
 
     .card-title {
@@ -347,6 +349,11 @@ p {
         padding: 20px; /* Adjust padding for very small screens */
         border-radius: 8px;
         min-height: 150px; /* Even smaller min-height for very small screens */
+    }
+
+    .card-front, .card-back {
+        padding: 20px; /* Reinstated padding on faces */
+        border-radius: 8px;
     }
 
     .card-title {
