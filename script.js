@@ -17,6 +17,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Elements for card flipping
     const cardInner = currentCard.querySelector('.card-inner');
+    const cardFrontDiv = currentCard.querySelector('.card-front'); // Reference to the actual front face div
+    const cardBackDiv = currentCard.querySelector('.card-back');   // Reference to the actual back face div
     const flipToBackButton = document.getElementById('flip-to-back-button');
     const flipToFrontButton = document.getElementById('flip-to-front-button');
 
@@ -611,7 +613,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             "Concept": "Zenith",
-            "Journal Prompt": "When have you experienced a peak moment of clarity, achievement, or deep connection that filled you with immense joy and peace?",
+            "Journal Prompt": "When have you experienced a peak moment of clarity, achievement, or deep connection that filled you with immense joy and peace? ",
             "Action 1": "Take a moment to reflect on a personal success or accomplishment and truly savor the feeling of triumph and positive energy.",
             "Action 2": "Visualize yourself achieving a significant goal and fully immerse yourself in the feeling of reaching your \"zenith\" with joyful anticipation.",
             "Imagery Idea1": "A vibrant, glowing mountaintop bathed in colorful light",
@@ -619,14 +621,16 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     ];
 
-    // Define the color palette from the provided image
+    let currentCardIndex = 0; // Initialize current card index
+    
+    // Define the color palette from the provided image, with primary and secondary for gradients
     const cardColors = [
-        '#64D9C3', // Teal/Mint (similar to 'Embrace Imperfection' card)
-        '#FF6F61', // Coral/Orange (similar to the second card)
-        '#FFC107', // Amber/Yellow (similar to the third card)
-        '#A188FF', // Light Purple (similar to the fourth card)
-        '#8BC34A', // Light Green (similar to the fifth card)
-        '#3F51B5'  // Indigo/Blue (similar to 'Cultivate Gratitude' card)
+        { primary: '#64D9C3', secondary: '#4AA094' }, // Teal
+        { primary: '#FF6F61', secondary: '#E65D53' }, // Coral
+        { primary: '#FFC107', secondary: '#FFA000' }, // Amber
+        { primary: '#A188FF', secondary: '#8E24AA' }, // Light Purple -> Deeper Purple
+        { primary: '#8BC34A', secondary: '#689F38' }, // Light Green -> Deeper Green
+        { primary: '#3F51B5', secondary: '#303F9F' }  // Indigo -> Deeper Indigo
     ];
 
     /**
@@ -658,20 +662,57 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     /**
+     * Dynamically sets the height of the card-inner based on the content of its tallest side.
+     * This ensures no text overflow occurs, even with varying content lengths.
+     */
+    function setCardHeight() {
+        // Temporarily reset display to allow scrollHeight to be accurate
+        cardInner.style.height = 'auto';
+        cardInner.style.minHeight = '0'; // Temporarily unset min-height from CSS for accurate measurement
+
+        // Temporarily set faces to static positioning to measure natural height
+        cardFrontDiv.style.position = 'static';
+        cardBackDiv.style.position = 'static';
+
+        // Measure heights after content has rendered and positioning is static
+        let frontHeight = cardFrontDiv.scrollHeight;
+        let backHeight = cardBackDiv.scrollHeight;
+
+        // Restore absolute positioning
+        cardFrontDiv.style.position = 'absolute';
+        cardBackDiv.style.position = 'absolute';
+
+        // Determine the maximum height needed
+        let maxHeight = Math.max(frontHeight, backHeight);
+
+        // Apply a minimum height to prevent it from being too small on short content
+        const minCardHeight = window.innerWidth <= 480 ? 150 : (window.innerWidth <= 768 ? 180 : 250);
+        maxHeight = Math.max(maxHeight, minCardHeight);
+
+        // Apply the calculated max height to card-inner
+        cardInner.style.height = `${maxHeight}px`;
+        // Also apply the min-height if the calculated height is less than the baseline
+        cardInner.style.minHeight = `${minCardHeight}px`;
+
+        // Log for debugging
+        // console.log(`Front Height: ${frontHeight}px, Back Height: ${backHeight}px, Set Height: ${maxHeight}px`);
+    }
+
+
+    /**
      * Displays a random card from the journalData array.
      * Includes a subtle fade-out/fade-in animation for smoother transitions
      * and text fade-in.
      */
     function displayRandomCard() {
-        // Remove 'flipped' class to ensure card is on the front side when a new card is loaded
+        // Ensure card is on the front side and not flipped when a new card is loaded
         currentCard.classList.remove('flipped');
 
         // Clear any previous text animation classes from the front content
         cardFrontTitle.classList.remove('text-fade-in');
         cardFrontContentDiv.classList.remove('text-fade-in');
 
-
-        // Add fade-out class to current card
+        // Add fade-out class to current card container
         currentCard.classList.add('fade-out');
 
         // After the fade-out, update content and fade in
@@ -681,20 +722,19 @@ document.addEventListener('DOMContentLoaded', () => {
                 cardPrompt.textContent = "Please add data to the journalData array in script.js.";
                 cardActions.textContent = "";
                 cardConceptBack.textContent = ""; // Clear back concept too
-                currentCard.querySelector('.card-front').style.background = '#ccc'; // Set a default background if no data
+                cardFrontDiv.style.background = '#ccc'; // Set a default background if no data
                 currentCard.classList.remove('fade-out'); // Ensure it's visible if no data
+                setCardHeight(); // Adjust height even for no data state
                 return;
             }
 
             const randomIndex = Math.floor(Math.random() * journalData.length);
             const randomCard = journalData[randomIndex];
 
-            const randomColorIndex = Math.floor(Math.random() * cardColors.length);
-            const selectedColor = cardColors[randomColorIndex];
-            const darkerColor = adjustColorBrightness(selectedColor, -0.15); // Get 15% darker version
+            const randomColor = cardColors[Math.floor(Math.random() * cardColors.length)];
 
             // Apply the random color with a subtle linear gradient to the card-front
-            currentCard.querySelector('.card-front').style.background = `linear-gradient(to bottom right, ${selectedColor}, ${darkerColor})`;
+            cardFrontDiv.style.background = `linear-gradient(to bottom right, ${randomColor.primary}, ${randomColor.secondary})`;
 
             // Update content for the front of the card
             cardConcept.textContent = randomCard.Concept;
@@ -719,6 +759,9 @@ document.addEventListener('DOMContentLoaded', () => {
             currentCard.classList.remove('fade-out');
             currentCard.classList.add('fade-in');
 
+            // After new content is set, adjust height
+            setCardHeight();
+
             // Add text-fade-in class after a slight delay to allow card animation to start
             setTimeout(() => {
                 // Apply animation to the card title and the content div on the front
@@ -737,9 +780,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     /**
      * Toggles the 'flipped' class on the card to show its back or front.
+     * Recalculates height after flip, as content might become visible that changes height.
      */
     function flipCard() {
         currentCard.classList.toggle('flipped');
+        // Ensure height is correct after flip
+        setTimeout(setCardHeight, 500); // Adjust height after flip animation starts
     }
 
     /**
@@ -752,7 +798,7 @@ document.addEventListener('DOMContentLoaded', () => {
             `Concept: ${cardConcept.textContent}\n\n` +
             `Journal Prompt: ${cardPrompt.textContent}\n\n` +
             `Suggested Actions:\n${cardActions.textContent}\n\n` +
-            `Find more at [Your Website Link Here - if you have one!]` // You can add your website URL here
+            `Find more mindful inspiration daily!` // Generic closing
         );
 
         // Mailto link to open email client
@@ -767,8 +813,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 
-    // Display a random card when the page loads
-    displayRandomCard();
+    // Initial setup on page load
+    // Note: fetchCardData is removed as data is inline, but keep for future external data loading
+    displayRandomCard(); // Display the first card
 
     // Event listener for the "New Card" button
     newCardBtn.addEventListener('click', displayRandomCard);
@@ -779,4 +826,15 @@ document.addEventListener('DOMContentLoaded', () => {
     // Event listeners for the flip buttons
     flipToBackButton.addEventListener('click', flipCard);
     flipToFrontButton.addEventListener('click', flipCard);
+
+    // Adjust card height on window resize, with a debounce for performance
+    let resizeTimeout;
+    window.addEventListener('resize', () => {
+        clearTimeout(resizeTimeout);
+        resizeTimeout = setTimeout(setCardHeight, 200); // Debounce to avoid excessive calls
+    });
+
+    // Initial height setting after DOM is loaded and content is populated
+    // A small delay helps ensure all fonts/content are rendered before measurement
+    setTimeout(setCardHeight, 100);
 });
