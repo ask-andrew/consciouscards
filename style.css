@@ -1,0 +1,395 @@
+/* Basic Reset & Body Styling */
+body {
+    font-family: 'Georgia', serif; /* A classic, journal-like font for body text */
+    margin: 0;
+    padding: 0;
+    background-color: #edece5; /* Light, complementary background color from image */
+    color: #333; /* Dark grey for general text */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure body takes full viewport height */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Header Styling */
+.header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #e0d8cc; /* Soft, muted header color */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+h1 {
+    font-family: 'Playfair Display', serif; /* More decorative font for main title */
+    font-size: 3em;
+    color: #5d4037; /* Darker brown for heading */
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Card Container for centering */
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the card horizontally */
+    justify-content: center; /* Center the card vertically */
+    flex-grow: 1; /* Allow container to grow and push header/footer */
+    padding: 30px 20px;
+    perspective: 1000px; /* Needed for 3D flip effect */
+}
+
+/* Individual Card Styling (Container for 3D flip) */
+.card {
+    background-color: transparent; /* Card itself is transparent, inner takes color */
+    border-radius: 12px; /* Rounded corners for a softer look */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15); /* Prominent shadow for a lifted effect */
+    width: 90%; /* Responsive width */
+    max-width: 700px; /* Max width for desktop */
+    margin-bottom: 30px; /* Space between card and buttons */
+    position: relative; /* For copy message positioning */
+    min-height: 250px; /* Ensure a minimum height for the card */
+}
+
+/* Inner card element for the flip animation */
+.card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s; /* Smooth transition for the flip */
+    transform-style: preserve-3d; /* Key for 3D transform */
+    border-radius: inherit; /* Inherit border-radius from parent */
+    min-height: inherit; /* Inherit min-height from parent */
+}
+
+/* Flipped state for the inner card */
+.card.flipped .card-inner {
+    transform: rotateY(180deg);
+}
+
+/* Front and Back of the card */
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Hide the back side during flip */
+    backface-visibility: hidden; /* Hide the back side during flip */
+    border-radius: inherit;
+    padding: 40px;
+    box-sizing: border-box; /* Include padding in element's total width and height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* Default text color for colorful cards is set on these elements */
+}
+
+.card-front {
+    /* Background set by JS, but keeping a fallback/initial for visual editor */
+    background: linear-gradient(to bottom right, #64D9C3, #4AA094);
+    color: #fff; /* White text for the front */
+}
+
+.card-back {
+    background-color: #f8f8f8; /* Light background for the back of the card */
+    color: #333; /* Dark text for the back of the card */
+    transform: rotateY(180deg); /* Start rotated for the back */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.card-back-reflection-text {
+    margin-top: 20px; /* Add space above reflection text */
+    margin-bottom: 5px;
+    font-style: italic;
+    color: #555;
+    font-size: 0.95em;
+}
+.card-back-reflection-text:last-child {
+    margin-bottom: 0;
+}
+
+
+/* Text elements within the card (front and back) */
+.card-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2em;
+    color: inherit; /* Inherit from card-front/back for color */
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.4); /* Stronger text shadow for readability */
+}
+
+/* Specific styling for the concept title on the back of the card */
+.card-title-back {
+    color: #5d4037; /* Darker brown to match header text */
+    text-shadow: none; /* No shadow needed on light background */
+    margin-bottom: 15px; /* Adjust spacing */
+    font-size: 1.8em; /* Slightly smaller than front title */
+}
+
+.card-label {
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 8px;
+    color: inherit; /* Inherit from card-front/back for color */
+    font-size: 1.15em;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.4); /* Stronger text shadow for readability */
+}
+
+.card-text {
+    margin-bottom: 0; /* Remove extra margin */
+    line-height: 1.7;
+    font-size: 1em;
+    color: inherit; /* Inherit from card-front/back for color */
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.4); /* Stronger text shadow for readability */
+    white-space: pre-wrap; /* Preserve line breaks from JS for actions */
+}
+
+/* Specific text color adjustments for the back of the card */
+.card-back .card-label,
+.card-back .card-text {
+    color: #333; /* Dark text on light background for card back */
+    text-shadow: none; /* No shadow needed on light background */
+}
+
+
+/* Animation for text content fade-in (applied via JS class to card-front-content) */
+.card-front-content > * {
+    transition: opacity 0.4s ease-out, transform 0.4s ease-out; /* Add transition for elements */
+}
+
+.card-front-content.text-fade-in .card-label,
+.card-front-content.text-fade-in .card-text {
+    animation: fadeInUp 0.5s ease-out forwards;
+    opacity: 0; /* Start hidden */
+    transform: translateY(10px); /* Start slightly below */
+}
+/* Ensure the card-title also animates */
+.card-front.text-fade-in .card-title {
+    animation: fadeInUp 0.5s ease-out forwards;
+    opacity: 0;
+    transform: translateY(10px);
+    animation-delay: 0.1s; /* Title animates first */
+}
+
+
+/* Staggered delay for each text element */
+.card-front-content.text-fade-in .card-label:nth-of-type(1) { animation-delay: 0.2s; }
+.card-front-content.text-fade-in #card-prompt { animation-delay: 0.3s; }
+
+/* The copy button and new card button are outside card-content, so they don't use this animation */
+
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* Button Container */
+.card-buttons {
+    display: flex;
+    gap: 20px; /* Space between buttons */
+    flex-wrap: wrap; /* Allow buttons to wrap on small screens */
+    justify-content: center;
+}
+
+/* General Action Button Styling */
+.action-button {
+    background-color: #5d4037; /* Darker brown, inspired by header text color */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.action-button:hover {
+    background-color: #7a5f4c; /* Lighter brown on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.action-button:active {
+    transform: translateY(0); /* Press down effect */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Share Button specific style (if needed, currently uses action-button) */
+.share-button {
+    /* You can add specific styles here if you want it to look different from new-card-button */
+}
+
+/* Flip Button (Icon) Styling */
+.flip-button {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+    border: none;
+    border-radius: 50%; /* Circular button */
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    z-index: 10; /* Ensure it's above other card content */
+}
+
+.flip-button svg {
+    color: #fff; /* White icon color for front */
+    width: 20px;
+    height: 20px;
+    transition: transform 0.3s ease;
+}
+
+.flip-button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: scale(1.1);
+}
+
+/* Styling for the flip button on the back of the card */
+.card-back .flip-button {
+    background: rgba(0, 0, 0, 0.1); /* Darker background for light card back */
+}
+
+.card-back .flip-button svg {
+    color: #333; /* Dark icon for light card back */
+}
+
+.card-back .flip-button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+/* Copy Message Styling (repurposed for share feedback) */
+.copy-message {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+    pointer-events: none; /* Allows clicks to pass through */
+    z-index: 20; /* Ensure it's above flip button if overlap */
+}
+
+.copy-message.show {
+    opacity: 1;
+}
+
+.hidden {
+    display: none; /* Utility class */
+}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.2em;
+    }
+
+    .card {
+        padding: 0; /* Padding is now on card-front/back */
+        width: 95%;
+        min-height: 200px;
+    }
+
+    .card-front, .card-back {
+        padding: 30px;
+    }
+
+    .card-title {
+        font-size: 1.8em;
+    }
+
+    .card-label {
+        font-size: 1.1em;
+    }
+
+    .action-button {
+        padding: 12px 25px;
+        font-size: 1em;
+    }
+
+    .card-buttons {
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8em;
+    }
+
+    .header {
+        padding: 30px 15px;
+    }
+
+    .card {
+        min-height: 180px;
+    }
+
+    .card-front, .card-back {
+        padding: 20px;
+        border-radius: 8px;
+    }
+
+    .card-title {
+        font-size: 1.5em;
+        margin-bottom: 15px;
+    }
+
+    .card-label {
+        font-size: 1em;
+        margin-top: 15px;
+    }
+
+    .card-text {
+        font-size: 0.95em;
+    }
+
+    .action-button {
+        padding: 10px 20px;
+        font-size: 0.9em;
+    }
+
+    .card-buttons {
+        flex-direction: column; /* Stack buttons vertically on very small screens */
+        gap: 10px;
+    }
+
+    .flip-button {
+        width: 35px;
+        height: 35px;
+        bottom: 10px;
+        right: 10px;
+    }
+    .flip-button svg {
+        width: 18px;
+        height: 18px;
+    }
+}

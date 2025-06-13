@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conscious Living Card</title>
+    <!-- Google Fonts for a classic, journal-like aesthetic -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Georgia&display=swap" rel="stylesheet">
+    <!-- Link to your custom stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Conscious Living</h1>
+        <p>Your daily dose of mindful reflection.</p>
+    </header>
+
+    <main class="card-container">
+        <div class="card" id="current-card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <h2 id="card-concept" class="card-title"></h2>
+                    <div class="card-front-content">
+                        <p class="card-label">Journal Prompt:</p>
+                        <p id="card-prompt" class="card-text"></p>
+                    </div>
+                    <!-- Flip button/icon on the front of the card -->
+                    <button id="flip-to-back-button" class="flip-button" aria-label="Flip to back of card">
+                        <!-- SVG for a clockwise rotation icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rotate-cw"><polyline points="23 4 23 10 17 10"></polyline><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path></svg>
+                    </button>
+                </div>
+                <div class="card-back">
+                    <h3 id="card-concept-back" class="card-title card-title-back"></h3> <!-- Concept on the back -->
+                    <div class="card-back-content">
+                        <p class="card-label">Suggested Actions:</p>
+                        <p id="card-actions" class="card-text"></p>
+                    </div>
+                    <p class="card-back-reflection-text">Reflect deeply on these actions.</p>
+                    <p class="card-back-reflection-text">How can you integrate them into your day?</p>
+                     <!-- Flip back button/icon on the back of the card -->
+                    <button id="flip-to-front-button" class="flip-button" aria-label="Flip to front of card">
+                        <!-- SVG for a counter-clockwise rotation icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rotate-ccw"><polyline points="1 10 1 4 7 4"></polyline><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 4"></path></svg>
+                    </button>
+                </div>
+            </div>
+            <!-- Message for copy action (repurposed for share feedback if needed) -->
+            <div id="copy-message" class="copy-message hidden">Email prepared!</div>
+        </div>
+        <div class="card-buttons">
+            <button id="share-card-btn" class="action-button share-button">Share with a friend</button>
+            <button id="new-card-btn" class="action-button new-card-button">Get New Card</button>
+        </div>
+    </main>
+
+    <!-- Link to your JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
