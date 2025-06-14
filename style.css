@@ -7,10 +7,12 @@ body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    background-color: #f5f0eb;
-    background-image: radial-gradient(at 50% 50%, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0) 70%);
-    font-family: 'Quicksand', sans-serif; /* Changed to Quicksand */
-    color: #333;
+    background-color: #f8f9fa;
+    background-image: 
+        radial-gradient(at 50% 50%, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0) 70%),
+        linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    font-family: 'Quicksand', sans-serif;
+    color: #2d3436;
     overflow-x: hidden;
 }
 
@@ -18,27 +20,92 @@ body {
 .header {
     width: 100%;
     text-align: center;
-    padding: 40px 20px;
-    background: linear-gradient(to right, #e0d8cc, #d5cbbf); /* Soft gradient for the header */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 30px 20px;
+    background: linear-gradient(135deg, #e0d8cc 0%, #d5cbbf 100%);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
     position: relative;
     z-index: 1;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    overflow: hidden;
 }
 
-/* Styling for the header image (joyful.png) */
+.header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+        radial-gradient(circle at 20% 20%, rgba(255,255,255,0.1) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(255,255,255,0.1) 0%, transparent 50%);
+    z-index: -1;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-logo {
+    width: 240px;
+    height: auto;
+    filter: drop-shadow(0 4px 8px rgba(0,0,0,0.1));
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.header-logo:hover {
+    transform: translateY(-5px);
+    filter: drop-shadow(0 6px 12px rgba(0,0,0,0.15));
+}
+
+.header h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3.2em;
+    color: #2d3436;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    letter-spacing: -0.5px;
+    position: relative;
+    display: inline-block;
+}
+
+.header h1::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, #64D9C3, transparent);
+    border-radius: 2px;
+}
+
+.header-subtitle {
+    font-size: 1.3em;
+    color: #4a4a4a;
+    margin: 0;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    opacity: 0.9;
+}
+
 .header-image {
-    max-width: 80px; /* Adjust as needed, prevents image from being too big */
-    height: auto; /* Maintains aspect ratio */
-    margin: 10px auto 0; /* Top margin, auto left/right for centering, 0 bottom margin */
-    display: block; /* Ensures margin auto works for centering */
+    max-width: 120px;
+    height: auto;
+    margin: 25px auto 0;
+    display: block;
+    filter: drop-shadow(0 4px 8px rgba(0,0,0,0.1));
+    transition: transform 0.3s ease, filter 0.3s ease;
 }
 
-h1 {
-    font-family: 'Quicksand', sans-serif; /* Changed to Quicksand */
-    font-size: 3em;
-    color: #5d4037;
-    margin-bottom: 10px;
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+.header-image:hover {
+    transform: translateY(-5px);
+    filter: drop-shadow(0 6px 12px rgba(0,0,0,0.15));
 }
 
 p {
@@ -63,12 +130,18 @@ p {
 /* Card Styling */
 .card {
     background-color: transparent;
-    border-radius: 12px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
     width: 90%;
     max-width: 700px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
 
 .card-inner {
@@ -76,7 +149,7 @@ p {
     height: auto;
     min-height: 250px;
     text-align: center;
-    transition: transform 0.8s;
+    transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
     transform-style: preserve-3d;
     border-radius: inherit;
 }
@@ -126,13 +199,13 @@ p {
 }
 
 .card-front {
-    background: linear-gradient(to bottom right, #64D9C3, #4AA094); /* Base gradient */
+    background: linear-gradient(135deg, #64D9C3 0%, #4AA094 100%);
     color: #fff;
 }
 
 .card-back {
-    background-color: #f8f8f8; /* Light background for the back of the card */
-    color: #333;
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+    color: #2d3436;
     transform: rotateY(180deg);
 }
 
@@ -141,27 +214,13 @@ p {
     opacity: 0.03; /* Slightly less opaque on light background */
 }
 
-
-.card-back-reflection-text {
-    margin-top: 20px;
-    margin-bottom: 5px;
-    font-style: italic;
-    color: #555;
-    font-size: 0.95em;
-}
-.card-back-reflection-text:last-child {
-    margin-bottom: 0;
-}
-
-
 /* Text elements within the card (front and back) */
 .card-title {
-    font-family: 'Quicksand', sans-serif; /* Changed to Quicksand */
-    font-size: 2.2em;
-    color: inherit;
-    margin-bottom: 25px;
-    /* Enhanced text shadow for readability */
-    text-shadow: 0px 0px 8px rgba(0,0,0,0.8), 0px 0px 5px rgba(0,0,0,0.6);
+    font-size: 2.4em;
+    font-weight: 700;
+    margin-bottom: 30px;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
 }
 
 .card-title-back {
@@ -182,13 +241,12 @@ p {
 }
 
 .card-text {
-    margin-bottom: 0;
-    line-height: 1.7;
-    font-size: 1em;
+    font-size: 1.1em;
+    line-height: 1.8;
     color: inherit;
-    /* Enhanced text shadow for readability */
-    text-shadow: 0px 0px 5px rgba(0,0,0,0.6);
-    white-space: pre-wrap;
+    text-shadow: none;
+    max-width: 90%;
+    margin: 0 auto;
 }
 
 .card-back .card-label,
@@ -212,18 +270,26 @@ p {
     bottom: 15px;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 0.75em;
+    font-size: 0.8em;
     font-family: 'Quicksand', sans-serif; /* Changed to Quicksand */
-    font-weight: bold;
-    color: rgba(255, 255, 255, 0.7);
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.8);
     text-shadow: 0px 0px 4px rgba(0,0,0,0.5); /* Enhanced shadow for branding */
     z-index: 5;
     white-space: nowrap;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
 }
 
 .card-branding-back {
     color: rgba(0, 0, 0, 0.5);
     text-shadow: none; /* No shadow needed on light background */
+}
+
+.card:hover .card-branding {
+    opacity: 1;
 }
 
 /* Animation */
@@ -257,21 +323,22 @@ p {
 }
 
 .action-button {
-    background-color: #5d4037;
-    color: white;
-    padding: 15px 30px;
-    border: none;
-    border-radius: 8px;
+    padding: 14px 28px;
     font-size: 1.1em;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(135deg, #64D9C3 0%, #4AA094 100%);
+    border: none;
+    border-radius: 12px;
     cursor: pointer;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(74, 160, 148, 0.2);
 }
 
 .action-button:hover {
-    background-color: #7a5f4c;
     transform: translateY(-2px);
-    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+    box-shadow: 0 6px 20px rgba(74, 160, 148, 0.3);
+    background: linear-gradient(135deg, #71e0c9 0%, #55b3a5 100%);
 }
 
 .action-button:active {
@@ -279,32 +346,32 @@ p {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-.flip-button {
-    position: absolute;
-    bottom: 15px;
-    right: 15px;
-    background: rgba(255, 255, 255, 0.2);
-    border: none;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-    z-index: 10;
-}
-
-.flip-button svg {
-    color: #fff;
-    width: 20px;
-    height: 20px;
+.button-text {
+    display: inline-block;
     transition: transform 0.3s ease;
 }
 
+.action-button:hover .button-text {
+    transform: translateY(-1px);
+}
+
+.flip-button {
+    width: 45px;
+    height: 45px;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
 .flip-button:hover {
-    background-color: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.3);
     transform: scale(1.1);
 }
 
@@ -322,51 +389,166 @@ p {
 
 .copy-message {
     position: absolute;
-    bottom: 20px;
+    bottom: -40px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: rgba(0, 0, 0, 0.7);
+    background: rgba(74, 160, 148, 0.9);
     color: white;
-    padding: 8px 15px;
-    border-radius: 5px;
+    padding: 10px 20px;
+    border-radius: 8px;
     font-size: 0.9em;
     opacity: 0;
-    transition: opacity 0.3s ease-out;
-    pointer-events: none;
-    z-index: 20;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .copy-message.show {
     opacity: 1;
+    transform: translateX(-50%) translateY(-5px);
 }
 
 .hidden {
     display: none;
 }
 
+/* Card Reflection Text Enhancement */
+.card-back-reflection-text {
+    font-size: 0.95em;
+    color: #666;
+    margin: 8px 0;
+    font-style: italic;
+    line-height: 1.4;
+}
+
+/* Loading State */
+.card.loading {
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+.card.loading::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    border-top-color: #fff;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+/* Focus States for Accessibility */
+.action-button:focus,
+.flip-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(74, 160, 148, 0.4);
+}
+
+/* Print Styles */
+@media print {
+    .card-buttons,
+    .flip-button {
+        display: none;
+    }
+    
+    .card {
+        box-shadow: none;
+        border: 1px solid #ddd;
+    }
+    
+    .card-front,
+    .card-back {
+        position: static;
+        transform: none;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+}
+
 /* Responsive */
 @media (max-width: 768px) {
-    h1 { font-size: 2.2em; }
-    .card { width: 95%; }
-    .card-inner { min-height: 180px; }
-    .card-front, .card-back { padding: 30px; }
-    .card-title { font-size: 1.8em; }
-    .card-label { font-size: 1.1em; }
-    .action-button { padding: 12px 25px; font-size: 1em; }
-    .card-buttons { gap: 15px; }
+    .header {
+        padding: 25px 20px;
+    }
+    
+    .header-logo {
+        width: 200px;
+    }
+    
+    .header h1 {
+        font-size: 2.6em;
+    }
+    
+    .header-subtitle {
+        font-size: 1.2em;
+    }
+    
+    .header-image {
+        max-width: 100px;
+    }
+    
+    .card { 
+        width: 92%;
+        margin-bottom: 30px;
+    }
+    
+    .card-title { 
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+    
+    .action-button {
+        padding: 12px 24px;
+        font-size: 1em;
+    }
 }
 
 @media (max-width: 480px) {
-    h1 { font-size: 1.8em; }
-    .header { padding: 30px 15px; }
-    .card-inner { padding: 20px; border-radius: 8px; min-height: 150px; }
-    .card-front, .card-back { padding: 20px; border-radius: 8px; }
-    .card-title { font-size: 1.5em; margin-bottom: 15px; }
-    .card-label { font-size: 1em; margin-top: 15px; }
-    .card-text { font-size: 0.95em; }
-    .action-button { padding: 10px 20px; font-size: 0.9em; }
-    .card-buttons { flex-direction: column; gap: 10px; }
-    .flip-button { width: 35px; height: 35px; bottom: 10px; right: 10px; }
-    .flip-button svg { width: 18px; height: 18px; }
-    .card-branding { font-size: 0.65em; bottom: 10px; }
+    .header {
+        padding: 20px 15px;
+    }
+    
+    .header-logo {
+        width: 160px;
+    }
+    
+    .header h1 {
+        font-size: 2.2em;
+    }
+    
+    .header-subtitle {
+        font-size: 1.1em;
+    }
+    
+    .header-image {
+        max-width: 80px;
+    }
+    
+    .card { 
+        width: 95%;
+        border-radius: 12px;
+    }
+    
+    .card-title { 
+        font-size: 1.8em;
+    }
+    
+    .card-text { 
+        font-size: 1em;
+    }
+    
+    .action-button {
+        width: 100%;
+        padding: 12px 20px;
+    }
 }

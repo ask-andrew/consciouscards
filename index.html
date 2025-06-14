@@ -3,65 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conscious Living Card</title>
-    <!-- Google Fonts for a classic, journal-like aesthetic -->
+    <meta name="description" content="Conscious Living Cards - Your daily dose of mindful reflection and personal growth">
+    <meta name="theme-color" content="#64D9C3">
+    <title>Conscious Living Cards</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="logo.png">
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Georgia&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
     <!-- Link to your custom stylesheet -->
     <link rel="stylesheet" href="style.css">
     <!-- html2canvas for generating images from HTML -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 </head>
 <body>
-    <header class="header">
-        <h1>Conscious Living</h1>
-        <p>Your daily dose of mindful reflection.</p>
-        <!-- IMPORTANT: If 'Joyful.png' still shows 'Icon', please replace "uploaded:Joyful.png"
-             with the full contentFetchId for your Joyful.png file.
-             You can find this ID in your project's file manager for 'Joyful.png'.
-             Example: src="uploaded:Joyful.png-SOME_LONG_UNIQUE_ID" -->
-        <img src="uploaded:Joyful.png" alt="Joyful Icon" class="header-image" onerror="this.onerror=null; this.src='https://placehold.co/80x80/cccccc/000000?text=Icon';">
+    <header class="header" role="banner">
+        <div class="header-content">
+            <img src="logo.png" alt="Conscious Living Logo" class="header-logo">
+        </div>
     </header>
 
-    <main class="card-container">
-        <div class="card" id="current-card">
+    <main class="card-container" role="main">
+        <div class="card" id="current-card" role="article">
             <div class="card-inner">
-                <div class="card-front">
-                    <div class="card-branding">Conscious Cards</div> <!-- Added branding to front -->
+                <div class="card-front" aria-label="Card front">
+                    <div class="card-branding">Conscious Cards</div>
                     <h2 id="card-concept" class="card-title"></h2>
                     <div class="card-front-content">
                         <p class="card-label">Journal Prompt:</p>
                         <p id="card-prompt" class="card-text"></p>
                     </div>
-                    <!-- Flip button/icon on the front of the card -->
                     <button id="flip-to-back-button" class="flip-button" aria-label="Flip to back of card">
-                        <!-- SVG for a clockwise rotation icon from Feather Icons -->
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rotate-cw"><polyline points="23 4 23 10 17 10"></polyline><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rotate-cw" aria-hidden="true"><polyline points="23 4 23 10 17 10"></polyline><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path></svg>
                     </button>
                 </div>
-                <div class="card-back">
-                    <div class="card-branding card-branding-back">Conscious Cards</div> <!-- Added branding to back -->
-                    <h3 id="card-concept-back" class="card-title card-title-back"></h3> <!-- Concept on the back -->
+                <div class="card-back" aria-label="Card back">
+                    <div class="card-branding card-branding-back">Conscious Cards</div>
+                    <h3 id="card-concept-back" class="card-title card-title-back"></h3>
                     <div class="card-back-content">
                         <p class="card-label">Suggested Actions:</p>
                         <p id="card-actions" class="card-text"></p>
                     </div>
                     <p class="card-back-reflection-text">Reflect deeply on these actions.</p>
                     <p class="card-back-reflection-text">How can you integrate them into your day?</p>
-                     <!-- Flip back button/icon on the back of the card -->
                     <button id="flip-to-front-button" class="flip-button" aria-label="Flip to front of card">
-                        <!-- SVG for a counter-clockwise rotation icon from Feather Icons -->
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rotate-ccw"><polyline points="1 10 1 4 7 4"></polyline><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 4"></path></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rotate-ccw" aria-hidden="true"><polyline points="1 10 1 4 7 4"></polyline><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 4"></path></svg>
                     </button>
                 </div>
             </div>
-            <!-- Message for share feedback -->
-            <div id="copy-message" class="copy-message hidden">Image downloaded! Attach to email.</div>
+            <div id="copy-message" class="copy-message hidden" role="alert">Image downloaded! Attach to email.</div>
         </div>
         <div class="card-buttons">
-            <button id="share-card-btn" class="action-button share-button">Share with a friend</button>
-            <button id="new-card-btn" class="action-button new-card-button">Get New Card</button>
+            <button id="share-card-btn" class="action-button share-button" aria-label="Share card with a friend">
+                <span class="button-text">Share with a friend</span>
+            </button>
+            <button id="new-card-btn" class="action-button new-card-button" aria-label="Get a new card">
+                <span class="button-text">Get New Card</span>
+            </button>
         </div>
     </main>
 
