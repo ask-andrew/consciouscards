@@ -792,26 +792,88 @@ document.addEventListener('DOMContentLoaded', () => {
      * Prepares an email with the card's content and opens the user's email client.
      */
     function shareCardContent() {
-        const subject = encodeURIComponent(`Conscious Living Card: ${cardConcept.textContent}`);
-        const body = encodeURIComponent(
-            `Here's a Conscious Living Card for you!\n\n` +
-            `Concept: ${cardConcept.textContent}\n\n` +
-            `Journal Prompt: ${cardPrompt.textContent}\n\n` +
-            `Suggested Actions:\n${cardActions.textContent}\n\n` +
-            `Find more mindful inspiration daily!` // Generic closing
-        );
+        const cardToShare = document.getElementById('current-card');
+        const copyMessage = document.getElementById('copy-message');
 
-        // Mailto link to open email client
-        window.location.href = `mailto:?subject=${subject}&body=${body}`;
+        // Hide flip buttons and branding for cleaner image capture
+        const flipButtons = currentCard.querySelectorAll('.flip-button');
+        flipButtons.forEach(btn => btn.style.display = 'none');
 
-        // Show "Email prepared!" message
+        const cardBranding = currentCard.querySelectorAll('.card-branding');
+        cardBranding.forEach(branding => branding.style.opacity = '0');
+
+        // Temporarily adjust card width for consistent image capture, if needed
+        const originalCardWidth = cardToShare.style.width;
+        cardToShare.style.width = cardToShare.offsetWidth + 'px'; // Lock current computed width
+
+        currentCard.classList.add('loading'); // Add loading state
+
+        html2canvas(cardToShare, {
+            scale: 2, // Increase scale for higher resolution image
+            useCORS: true, // If you have external resources
+            logging: false,
+            backgroundColor: null, // Allow transparent background if card has one
+            removeContainer: true // Clean up temporary canvas container
+        }).then(canvas => {
+            currentCard.classList.remove('loading'); // Remove loading state
+            const image = canvas.toDataURL('image/png');
+            const fileName = 'conscious-card.png';
+
+            // Restore hidden elements and original width
+            flipButtons.forEach(btn => btn.style.display = '');
+            cardBranding.forEach(branding => branding.style.opacity = '');
+            cardToShare.style.width = originalCardWidth; // Restore original width
+
+            // Try Web Share API first
+            if (navigator.share) {
+                fetch(image)
+                    .then(res => res.blob())
+                    .then(blob => {
+                        const file = new File([blob], fileName, { type: 'image/png' });
+                        navigator.share({
+                                files: [file],
+                                title: 'Conscious Card',
+                                text: 'Check out this mindful reflection from Conscious Cards!',
+                            })
+                            .then(() => console.log('Share successful'))
+                            .catch((error) => console.error('Sharing failed', error));
+                    })
+                    .catch(error => {
+                        console.error('Error fetching image for share:', error);
+                        fallbackDownload(); // Fallback to download if fetch fails
+                    });
+            } else {
+                // Fallback for browsers not supporting Web Share API
+                fallbackDownload();
+            }
+
+            function fallbackDownload() {
+                const a = document.createElement('a');
+                a.href = image;
+                a.download = fileName;
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+
+                showCopyMessage('Image downloaded! You can share it now.');
+            }
+        }).catch(error => {
+            currentCard.classList.remove('loading');
+            console.error("Error generating card image:", error);
+            showCopyMessage('Failed to generate image. Try again.');
+        });
+    }
+
+    // Helper function to show and hide copy message
+    function showCopyMessage(message) {
+        copyMessage.textContent = message;
         copyMessage.classList.remove('hidden');
         copyMessage.classList.add('show');
         setTimeout(() => {
-            copyMessage.classList.add('hidden'); // Hide after showing
-        }, 2000); // Message visible for 2 seconds
+            copyMessage.classList.remove('show');
+            copyMessage.classList.add('hidden');
+        }, 3000); // Message visible for 3 seconds
     }
-
 
     // Initial setup on page load
     // Note: fetchCardData is removed as data is inline, but keep for future external data loading
