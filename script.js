@@ -748,7 +748,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             if (randomCard["Action 2"]) {
                 if (actionsText !== "") {
-                    actionsText += "\n\n"; // Add a line break if Action 1 exists
+                    actionsText += "\n\n"; // Add two line breaks for a new paragraph effect
                 }
                 actionsText += "2. " + randomCard["Action 2"];
             }
