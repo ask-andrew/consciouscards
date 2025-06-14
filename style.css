@@ -21,7 +21,7 @@ body {
     width: 100%;
     text-align: center;
     padding: 30px 20px;
-    background: linear-gradient(135deg, #e0d8cc 0%, #d5cbbf 100%);
+    background: linear-gradient(135deg, #FAE2BF 0%, #F0D09B 100%);
     box-shadow: 0 4px 15px rgba(0,0,0,0.05);
     position: relative;
     z-index: 1;
@@ -37,8 +37,8 @@ body {
     right: 0;
     bottom: 0;
     background: 
-        radial-gradient(circle at 20% 20%, rgba(255,255,255,0.1) 0%, transparent 50%),
-        radial-gradient(circle at 80% 80%, rgba(255,255,255,0.1) 0%, transparent 50%);
+        radial-gradient(circle at 20% 20%, rgba(255,255,255,0.15) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(255,255,255,0.15) 0%, transparent 50%);
     z-index: -1;
 }
 
@@ -48,11 +48,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .header-logo {
-    width: 240px;
+    max-width: 240px;
+    width: 100%;
     height: auto;
+    object-fit: contain;
     filter: drop-shadow(0 4px 8px rgba(0,0,0,0.1));
     transition: transform 0.3s ease, filter 0.3s ease;
 }
@@ -60,6 +63,39 @@ body {
 .header-logo:hover {
     transform: translateY(-5px);
     filter: drop-shadow(0 6px 12px rgba(0,0,0,0.15));
+}
+
+/* Responsive Design */
+@media screen and (min-width: 1200px) {
+    .header-logo {
+        max-width: 240px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .header-logo {
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 25px 20px;
+    }
+    
+    .header-logo {
+        max-width: 180px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header {
+        padding: 20px 15px;
+    }
+    
+    .header-logo {
+        max-width: 140px;
+    }
 }
 
 .header h1 {
