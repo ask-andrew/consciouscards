@@ -84,7 +84,7 @@ body {
     }
     
     .header-logo {
-        max-width: 180px;
+        width: 200px;
     }
 }
 
@@ -94,7 +94,7 @@ body {
     }
     
     .header-logo {
-        max-width: 140px;
+        width: 160px;
     }
 }
 
@@ -521,31 +521,57 @@ p {
         width: 200px;
     }
     
-    .header h1 {
-        font-size: 2.6em;
+    /* Card Specific Adjustments */
+    .card {
+        width: 95%; /* Increase width slightly for more content room */
+        margin-bottom: 25px;
     }
     
-    .header-subtitle {
-        font-size: 1.2em;
+    .card-front, .card-back {
+        padding: 30px; /* Reduce padding */
+    }
+
+    .card-title {
+        font-size: 1.8em; /* Slightly smaller */
+        margin-bottom: 15px;
+    }
+
+    .card-label {
+        font-size: 1em; /* Slightly smaller */
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+
+    .card-text {
+        font-size: 0.95em; /* Slightly smaller */
+        line-height: 1.6;
     }
     
-    .header-image {
-        max-width: 100px;
+    .card-back-reflection-text {
+        font-size: 0.85em;
+        margin: 5px 0;
     }
-    
-    .card { 
-        width: 92%;
-        margin-bottom: 30px;
+
+    .card-branding {
+        font-size: 0.7em; /* Smaller branding text */
+        bottom: 10px;
     }
-    
-    .card-title { 
-        font-size: 2em;
-        margin-bottom: 20px;
+
+    .flip-button {
+        width: 40px;
+        height: 40px;
+        bottom: 15px;
+        right: 15px;
     }
-    
+
+    .flip-button svg {
+        width: 20px;
+        height: 20px;
+    }
+
     .action-button {
-        padding: 12px 24px;
-        font-size: 1em;
+        padding: 10px 20px;
+        font-size: 0.95em;
     }
 }
 
@@ -558,33 +584,58 @@ p {
         width: 160px;
     }
     
-    .header h1 {
-        font-size: 2.2em;
+    /* Card Specific Adjustments */
+    .card {
+        width: 98%; /* Even wider on very small screens */
+        border-radius: 10px;
+        margin-bottom: 20px;
     }
     
-    .header-subtitle {
-        font-size: 1.1em;
+    .card-front, .card-back {
+        padding: 20px; /* Further reduce padding */
+    }
+
+    .card-title {
+        font-size: 1.6em;
+        margin-bottom: 10px;
+    }
+
+    .card-label {
+        font-size: 0.9em;
+        margin-top: 10px;
+        margin-bottom: 3px;
+    }
+
+    .card-text {
+        font-size: 0.9em;
+        line-height: 1.5;
+    }
+
+    .card-back-reflection-text {
+        font-size: 0.8em;
+        margin: 3px 0;
+    }
+
+    .card-branding {
+        font-size: 0.65em;
+        bottom: 8px;
+    }
+
+    .flip-button {
+        width: 35px;
+        height: 35px;
+        bottom: 10px;
+        right: 10px;
     }
     
-    .header-image {
-        max-width: 80px;
+    .flip-button svg {
+        width: 18px;
+        height: 18px;
     }
-    
-    .card { 
-        width: 95%;
-        border-radius: 12px;
-    }
-    
-    .card-title { 
-        font-size: 1.8em;
-    }
-    
-    .card-text { 
-        font-size: 1em;
-    }
-    
+
     .action-button {
         width: 100%;
-        padding: 12px 20px;
+        padding: 10px 15px;
+        font-size: 0.85em;
     }
 }

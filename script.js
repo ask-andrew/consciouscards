@@ -734,7 +734,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const randomColor = cardColors[Math.floor(Math.random() * cardColors.length)];
 
             // Apply the random color with a subtle linear gradient to the card-front
-            cardFrontDiv.style.background = `linear-gradient(to bottom right, ${randomColor.primary}, ${randomColor.secondary})`;
+            cardFrontDiv.style.setProperty('background', `linear-gradient(to bottom right, ${randomColor.primary}, ${randomColor.secondary})`, 'important');
 
             // Update content for the front of the card
             cardConcept.textContent = randomCard.Concept;
