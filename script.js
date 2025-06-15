@@ -13,7 +13,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // Select the content containers for the front and back of the card to manage animations
     const cardFrontContentDiv = currentCard.querySelector('.card-front-content');
     const cardFrontTitle = currentCard.querySelector('.card-title'); // Concept title on front
-
+    const cardFrontLabel = currentCard.querySelector('.card-label');
+    const cardFrontText = currentCard.querySelector('#card-prompt');
 
     // Elements for card flipping
     const cardInner = currentCard.querySelector('.card-inner');
@@ -623,15 +624,29 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let currentCardIndex = 0; // Initialize current card index
     
-    // Define the color palette from the provided image, with primary and secondary for gradients
+    // Colors for the random card backgrounds
     const cardColors = [
         { primary: '#64D9C3', secondary: '#4AA094' }, // Teal
-        { primary: '#FF6F61', secondary: '#E65D53' }, // Coral
-        { primary: '#FFC107', secondary: '#FFA000' }, // Amber
-        { primary: '#A188FF', secondary: '#8E24AA' }, // Light Purple -> Deeper Purple
-        { primary: '#8BC34A', secondary: '#689F38' }, // Light Green -> Deeper Green
-        { primary: '#3F51B5', secondary: '#303F9F' }  // Indigo -> Deeper Indigo
+        { primary: '#A8DADC', secondary: '#6DBCB6' }, // Light Blue/Green
+        { primary: '#E0BBE4', secondary: '#957DAD' }, // Lavender
+        { primary: '#90EE90', secondary: '#6B8E23' }, // Light Green
+        { primary: '#FDD49E', secondary: '#F0B27A' }, // Peach/Orange
+        { primary: '#ADD8E6', secondary: '#87CEEB' }, // Light Sky Blue
+        { primary: '#FFD700', secondary: '#DAA520' }, // Gold
+        { primary: '#C1E1C1', secondary: '#A0D4A0' }, // Pastel Green
+        { primary: '#FFB6C1', secondary: '#F08080' }, // Light Coral
+        { primary: '#87CEFA', secondary: '#6A5ACD' }  // Light Steel Blue
     ];
+
+    // Helper to determine if a color is light or dark for dynamic text color
+    function isColorLight(hexColor) {
+        const r = parseInt(hexColor.substring(1, 3), 16);
+        const g = parseInt(hexColor.substring(3, 5), 16);
+        const b = parseInt(hexColor.substring(5, 7), 16);
+        // Perceived brightness calculation
+        const brightness = (r * 299 + g * 587 + b * 114) / 1000;
+        return brightness > 180; // Threshold can be adjusted
+    }
 
     /**
      * Helper function to get a slightly darker or lighter version of a color for gradients.
@@ -735,6 +750,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Apply the random color with a subtle linear gradient to the card-front
             cardFrontDiv.style.setProperty('background', `linear-gradient(to bottom right, ${randomColor.primary}, ${randomColor.secondary})`, 'important');
+
+            // Set text color dynamically based on primary color brightness
+            const textColor = isColorLight(randomColor.primary) ? '#333' : '#fff';
+            cardFrontTitle.style.color = textColor;
+            cardFrontLabel.style.color = textColor;
+            cardFrontText.style.color = textColor;
+
+            // Ensure branding color matches for the front
+            const cardBrandingFront = currentCard.querySelector('.card-branding:not(.card-branding-back)');
+            if (cardBrandingFront) {
+                cardBrandingFront.style.color = isColorLight(randomColor.primary) ? 'rgba(0,0,0,0.7)' : 'rgba(255,255,255,0.7)';
+                cardBrandingFront.style.textShadow = isColorLight(randomColor.primary) ? 'none' : '0px 0px 4px rgba(0,0,0,0.5)';
+            }
 
             // Update content for the front of the card
             cardConcept.textContent = randomCard.Concept;
