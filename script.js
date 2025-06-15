@@ -37,6 +37,66 @@ document.addEventListener('DOMContentLoaded', () => {
             "Imagery Idea2": "a joyful rain of sparkling coins and hearts."
         },
         {
+        "Concept": "Wonder",
+        "Journal Prompt": "When was the last time you felt true wonder? What were you looking at, hearing, or touching?",
+        "Action 1": "Take a 20-minute 'artist date' walk. Collect 3 tiny objects that catch your eye. Arrange them like a tiny altar.",
+        "Action 2": "Google a random topic (e.g., 'bioluminescent fungi') and let yourself tumble into curiosity."
+    },
+    {
+        "Concept": "Disruption",
+        "Journal Prompt": "What rules (yours or others') are you ready to break, even just for today?",
+        "Action 1": "Eat dessert before lunch. Take a different route home.",
+        "Action 2": "Rearrange a space in your home in a way that feels slightly rebellious."
+    },
+    {
+        "Concept": "Stillness",
+        "Journal Prompt": "What comes up for you in silence? What do you avoid by staying busy?",
+        "Action 1": "Set a timer for 10 minutes. Sit still. Breathe.",
+        "Action 2": "Lay on the floor and do absolutely nothing. Let yourself be horizontal on purpose."
+    },
+    {
+        "Concept": "Delight",
+        "Journal Prompt": "List 5 small things that give you a secret thrill. How could you give one to yourself today?",
+        "Action 1": "Buy a sticker. Put it somewhere serious.",
+        "Action 2": "Watch a kid's cartoon you used to love. Sing along to the theme song."
+    },
+    {
+        "Concept": "Flow",
+        "Journal Prompt": "What activity makes you lose track of time? When did you last do it?",
+        "Action 1": "Set a timer for 30 minutes and do a creative activity without judgment.",
+        "Action 2": "Cook without a recipe using only what’s in your fridge and pantry."
+    },
+    {
+        "Concept": "Play",
+        "Journal Prompt": "When were you last truly playful? What did it feel like in your body?",
+        "Action 1": "Make up a game with only objects around you.",
+        "Action 2": "Talk in a funny voice to your pet or a plant for 3 minutes."
+    },
+    {
+        "Concept": "Nostalgia",
+        "Journal Prompt": "What part of your younger self do you miss? What would they want to do today?",
+        "Action 1": "Write a letter to your 10-year-old self.",
+        "Action 2": "Listen to a song you loved in middle school and dance like you're there again."
+    },
+    {
+        "Concept": "Permission",
+        "Journal Prompt": "What have you been waiting for permission to do or feel? Can you give it to yourself today?",
+        "Action 1": "Write yourself a permission slip and sign it.",
+        "Action 2": "Say 'no' to something minor today. Notice how it feels."
+    },
+    {
+        "Concept": "Curiosity",
+        "Journal Prompt": "What are you curious about that you haven't explored? Why not?",
+        "Action 1": "Pick up a nonfiction book or article on a random topic and read for 10 minutes.",
+        "Action 2": "Ask someone you trust a question you've always wanted to ask."
+    },
+    {
+        "Concept": "Imagination",
+        "Journal Prompt": "If anything were possible, what would your day look like?",
+        "Action 1": "Write a 5-sentence story where you're the hero of a magical world.",
+        "Action 2": "Doodle a dream you had—or make one up from scratch."
+    },
+        {
             "Concept": "Acceptance",
             "Journal Prompt": "How has accepting a challenging situation or feeling in the past surprisingly brought you peace or clarity?",
             "Action 1": "When a difficult emotion arises, acknowledge it with kindness: \"Hello, sadness. I see you.\" without judgment.",
