@@ -291,6 +291,27 @@ p {
     text-shadow: none; /* No shadow needed on light background */
 }
 
+/* New styles for action items with lotus bullet */
+.action-item {
+    display: flex;
+    align-items: flex-start; /* Align icon to the top of text */
+    margin-bottom: 10px; /* Space between action items */
+    line-height: 1.6; /* Ensure readability */
+}
+
+.action-item:last-child {
+    margin-bottom: 0; /* No margin after the last item */
+}
+
+.action-bullet-icon {
+    width: 18px; /* Small size for the lotus icon */
+    height: 18px;
+    margin-right: 8px; /* Space between icon and text */
+    flex-shrink: 0; /* Prevent icon from shrinking */
+    object-fit: contain;
+    vertical-align: middle; /* Align with text baseline */
+}
+
 /* Content containers within front/back to manage flex layout for text */
 .card-front-content, .card-back-content {
     flex-grow: 1;

@@ -744,15 +744,16 @@ document.addEventListener('DOMContentLoaded', () => {
             cardConceptBack.textContent = randomCard.Concept; // Concept on the back as well
             let actionsText = "";
             if (randomCard["Action 1"]) {
-                actionsText += "1. " + randomCard["Action 1"];
+                actionsText += `<div class="action-item"><img src="lotus.png" alt="lotus icon" class="action-bullet-icon"> ${randomCard["Action 1"]}</div>`;
             }
             if (randomCard["Action 2"]) {
                 if (actionsText !== "") {
-                    actionsText += "\n\n"; // Add two line breaks for a new paragraph effect
+                    // If action 1 exists, add a clear separation with a new line for the div
+                    actionsText += "\n"; 
                 }
-                actionsText += "2. " + randomCard["Action 2"];
+                actionsText += `<div class="action-item"><img src="lotus.png" alt="lotus icon" class="action-bullet-icon"> ${randomCard["Action 2"]}</div>`;
             }
-            cardActions.textContent = actionsText;
+            cardActions.innerHTML = actionsText; // Use innerHTML because we are inserting HTML now
 
 
             // Remove fade-out and add fade-in for the card container
