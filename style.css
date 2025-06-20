@@ -203,8 +203,8 @@ p {
 }
 
 .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    transform: translateY(-10px) scale(1.02); /* More pronounced lift and slight scale */
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2); /* Stronger, more diffused shadow */
 }
 
 .card-inner {
