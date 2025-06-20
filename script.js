@@ -906,7 +906,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         navigator.share({
                                 files: [file],
                                 title: 'Conscious Living Card from a friend',
-                                text: 'A little spark of inspiration, just for you! Discover your Conscious Living Card and more at https://ask-andrew.github.io/consciouscards/',
+                                text: 'A little spark of inspiration, just for you! Discover your Conscious Living Card and more.',
                                 url: 'https://ask-andrew.github.io/consciouscards/',
                             })
                             .then(() => console.log('Share successful'))
