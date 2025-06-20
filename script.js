@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "Concept": "Flow",
         "Journal Prompt": "What activity makes you lose track of time? When did you last do it?",
         "Action 1": "Set a timer for 30 minutes and do a creative activity without judgment.",
-        "Action 2": "Cook without a recipe using only what’s in your fridge and pantry."
+        "Action 2": "Cook without a recipe using only what's in your fridge and pantry."
     },
     {
         "Concept": "Play",
@@ -905,8 +905,9 @@ document.addEventListener('DOMContentLoaded', () => {
                         const file = new File([blob], fileName, { type: 'image/png' });
                         navigator.share({
                                 files: [file],
-                                title: 'Conscious Card',
-                                text: 'Check out this mindful reflection from Conscious Cards!',
+                                title: 'Conscious Living Card from a friend',
+                                text: 'A little spark of inspiration, just for you! Discover your Conscious Living Card and more at https://ask-andrew.github.io/consciouscards/',
+                                url: 'https://ask-andrew.github.io/consciouscards/',
                             })
                             .then(() => console.log('Share successful'))
                             .catch((error) => console.error('Sharing failed', error));
