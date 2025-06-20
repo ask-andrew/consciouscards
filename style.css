@@ -685,3 +685,25 @@ p {
         font-size: 0.85em;
     }
 }
+
+/* --- Waitlist Button Specific Styling --- */
+.waitlist-button-area .button {
+    display: inline-block;
+    background-color: #4CAF50; /* Active button color */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer; /* Indicates it's clickable */
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    opacity: 1; /* Fully visible */
+}
+
+.waitlist-button-area .button:hover {
+    background-color: #45a049; /* Darker green on hover */
+    opacity: 1; /* Ensure full opacity on hover */
+}
