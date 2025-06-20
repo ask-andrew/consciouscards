@@ -880,38 +880,22 @@ document.addEventListener('DOMContentLoaded', () => {
     /**
      * Prepares an email with the card's content and opens the user's email client.
      */
-    function shareCardContent() {
+    async function shareCardContent() {
         const cardToShare = document.getElementById('current-card');
         const copyMessage = document.getElementById('copy-message');
 
-        // Hide flip buttons and branding for cleaner image capture
-        const flipButtons = currentCard.querySelectorAll('.flip-button');
-        flipButtons.forEach(btn => btn.style.display = 'none');
+        // No longer need to hide flip buttons or branding here, as generateCombinedCardImage handles temporary elements
+        
+        // Add loading state
+        currentCard.classList.add('loading');
 
-        const cardBranding = currentCard.querySelectorAll('.card-branding');
-        cardBranding.forEach(branding => branding.style.opacity = '0');
+        try {
+            // Generate the combined image of front and back
+            const image = await generateCombinedCardImage('current-card');
+            const fileName = 'conscious-card-combined.png';
 
-        // Temporarily adjust card width for consistent image capture, if needed
-        const originalCardWidth = cardToShare.style.width;
-        cardToShare.style.width = cardToShare.offsetWidth + 'px'; // Lock current computed width
-
-        currentCard.classList.add('loading'); // Add loading state
-
-        html2canvas(cardToShare, {
-            scale: 2, // Increase scale for higher resolution image
-            useCORS: true, // If you have external resources
-            logging: false,
-            backgroundColor: null, // Allow transparent background if card has one
-            removeContainer: true // Clean up temporary canvas container
-        }).then(canvas => {
-            currentCard.classList.remove('loading'); // Remove loading state
-            const image = canvas.toDataURL('image/png');
-            const fileName = 'conscious-card.png';
-
-            // Restore hidden elements and original width
-            flipButtons.forEach(btn => btn.style.display = '');
-            cardBranding.forEach(branding => branding.style.opacity = '');
-            cardToShare.style.width = originalCardWidth; // Restore original width
+            // Remove loading state
+            currentCard.classList.remove('loading');
 
             // Try Web Share API first
             if (navigator.share) {
@@ -946,11 +930,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 showCopyMessage('Image downloaded! You can share it now.');
             }
-        }).catch(error => {
+        } catch (error) {
             currentCard.classList.remove('loading');
-            console.error("Error generating card image:", error);
+            console.error("Error in shareCardContent:", error);
             showCopyMessage('Failed to generate image. Try again.');
-        });
+        }
     }
 
     // Helper function to show and hide copy message
@@ -962,6 +946,121 @@ document.addEventListener('DOMContentLoaded', () => {
             copyMessage.classList.remove('show');
             copyMessage.classList.add('hidden');
         }, 3000); // Message visible for 3 seconds
+    }
+
+    /**
+     * Generates a single image containing both the front and back of the card, side-by-side.
+     * This function creates a temporary, off-screen representation of the card
+     * to capture both its front and back content simultaneously using html2canvas.
+     *
+     * @param {string} cardId The ID of the main card element (e.g., 'current-card').
+     * @returns {Promise<string>} A Promise that resolves with the Data URI of the combined image.
+     */
+    async function generateCombinedCardImage(cardId) {
+        const originalCard = document.getElementById(cardId);
+        if (!originalCard) {
+            console.error(`Card with ID ${cardId} not found.`);
+            throw new Error(`Card with ID ${cardId} not found.`);
+        }
+
+        // Create a temporary container to hold the elements for rendering
+        const tempRenderContainer = document.createElement('div');
+        tempRenderContainer.style.position = 'absolute'; // Position off-screen
+        tempRenderContainer.style.left = '-9999px';
+        tempRenderContainer.style.top = '-9999px';
+        tempRenderContainer.style.zIndex = '-100'; // Ensure it's behind everything
+        tempRenderContainer.style.padding = '30px'; // Padding around the combined view
+        tempRenderContainer.style.backgroundColor = '#f8f9fa'; // Base background for the combined image
+        tempRenderContainer.style.boxSizing = 'border-box';
+        tempRenderContainer.style.display = 'flex'; // Use flexbox to arrange cloned cards
+        tempRenderContainer.style.gap = '30px'; // Space between front and back
+        tempRenderContainer.style.maxWidth = '1400px'; // Max width for the combined image
+        tempRenderContainer.style.width = 'fit-content'; // Or a fixed large width, e.g., '1400px'
+        document.body.appendChild(tempRenderContainer);
+
+        // Clone the relevant parts: card-front and card-back directly
+        // This simplifies handling the 3D transforms of .card-inner
+        const originalFront = originalCard.querySelector('.card-front');
+        const originalBack = originalCard.querySelector('.card-back');
+
+        const clonedFront = originalFront.cloneNode(true);
+        const clonedBack = originalBack.cloneNode(true);
+
+        // Apply temporary styles to clones to make them visible and arranged side-by-side
+        clonedFront.style.position = 'relative'; // Override absolute positioning
+        clonedFront.style.transform = 'none'; // Remove any previous transforms
+        clonedFront.style.backfaceVisibility = 'visible'; // Ensure content is always visible
+        clonedFront.style.width = '600px'; // Set a fixed width for each card side in the combined image
+        clonedFront.style.height = 'auto'; // Auto height based on content
+        clonedFront.style.minHeight = '400px'; // Ensure a minimum height if content is sparse
+        clonedFront.style.boxShadow = '0 15px 35px rgba(0, 0, 0, 0.1)'; // Keep original shadow
+        clonedFront.style.margin = '0'; // Remove any external margins
+
+        clonedBack.style.position = 'relative'; // Override absolute positioning
+        clonedBack.style.transform = 'none'; // Remove any previous transforms (like rotateY)
+        clonedBack.style.backfaceVisibility = 'visible'; // Ensure content is always visible
+        clonedBack.style.width = '600px'; // Match front width
+        clonedBack.style.height = 'auto';
+        clonedBack.style.minHeight = '400px'; // Match front min-height
+        clonedBack.style.boxShadow = '0 15px 35px rgba(0, 0, 0, 0.1)'; // Keep original shadow
+        clonedBack.style.margin = '0';
+
+        // Important: Copy the *computed* dynamic colors from the original elements
+        // This ensures the rendered clones have the correct background and text colors
+        const computedFrontStyle = window.getComputedStyle(originalFront);
+        const computedBackStyle = window.getComputedStyle(originalBack);
+
+        clonedFront.style.background = computedFrontStyle.background;
+        clonedFront.style.color = computedFrontStyle.color;
+        clonedFront.querySelectorAll('.card-title, .card-label, .card-text').forEach(el => {
+            el.style.color = computedFrontStyle.color;
+        });
+        if (clonedFront.querySelector('.card-branding')) {
+            clonedFront.querySelector('.card-branding').style.color = window.getComputedStyle(originalFront.querySelector('.card-branding')).color;
+            clonedFront.querySelector('.card-branding').style.textShadow = window.getComputedStyle(originalFront.querySelector('.card-branding')).textShadow;
+        }
+
+
+        clonedBack.style.background = computedBackStyle.background;
+        clonedBack.style.color = computedBackStyle.color;
+        clonedBack.querySelectorAll('.card-title, .card-label, .card-text').forEach(el => {
+            el.style.color = computedBackStyle.color;
+        });
+        if (clonedBack.querySelector('.card-branding.card-branding-back')) {
+            clonedBack.querySelector('.card-branding.card-branding-back').style.color = window.getComputedStyle(originalBack.querySelector('.card-branding.card-branding-back')).color;
+            clonedBack.querySelector('.card-branding.card-branding-back').style.textShadow = window.getComputedStyle(originalBack.querySelector('.card-branding.card-branding-back')).textShadow;
+        }
+
+        // Append cloned elements to the temporary container
+        tempRenderContainer.appendChild(clonedFront);
+        tempRenderContainer.appendChild(clonedBack);
+
+        try {
+            // Use html2canvas to render the temporary container
+            const canvas = await html2canvas(tempRenderContainer, {
+                scale: 2, // High resolution for better image quality
+                useCORS: true, // Important for images loaded from different origins (like Joyful.png if it were from CDN)
+                logging: false, // Suppress html2canvas logs
+                backgroundColor: null, // Allow the tempContainer's background to be the canvas background
+            });
+
+            // Convert the canvas content into a PNG Data URI
+            const dataUri = canvas.toDataURL('image/png');
+
+            // Log the Data URI to the console
+            console.log('Generated Combined Card Data URI:', dataUri);
+
+            return dataUri; // Return the Data URI
+
+        } catch (error) {
+            console.error("Error generating combined card image:", error);
+            throw error; // Re-throw to propagate the error
+        } finally {
+            // Clean up: remove temporary container from DOM
+            if (document.body.contains(tempRenderContainer)) {
+                document.body.removeChild(tempRenderContainer);
+            }
+        }
     }
 
     // Initial setup on page load
