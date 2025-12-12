@@ -1,0 +1,634 @@
+[
+  {
+    "Concept": "Abundance",
+    "Journal Prompt": "What do you have in abundance that money can't buy? How does this richness show up in your daily life?",
+    "Action 1 (Internal/Reflective)": "List 10 things you're grateful for, focusing on the overlooked and ordinary.",
+    "Action 2 (External/Relational)": "Give away something you value to someone who would treasure it.",
+    "Imagery Idea 1": "A cornucopia overflowing with colorful, glowing fruits and vegetables",
+    "Imagery Idea 2": "A joyful rain of sparkling coins and hearts"
+  },
+  {
+    "Concept": "Acceptance",
+    "Journal Prompt": "What are you resisting right now? What might happen if you stopped fighting it?",
+    "Action 1 (Internal/Reflective)": "When a difficult emotion arises, name it without judgment: \"This is anger\" or \"This is grief.",
+    "Action 2 (External/Relational)": "Choose one thing you've been trying to change and practice accepting it for 24 hours.",
+    "Imagery Idea 1": "A person calmly holding a tangled ball of colorful yarn",
+    "Imagery Idea 2": "A river flowing smoothly around a large, unmovable rock"
+  },
+  {
+    "Concept": "Accountability",
+    "Journal Prompt": "When have you blamed circumstances or others for an outcome you helped create?",
+    "Action 1 (Internal/Reflective)": "Reflect on a current challenge and write down three ways you've contributed to it.",
+    "Action 2 (External/Relational)": "Apologize to someone for a specific impact you had, without justifying or explaining.",
+    "Imagery Idea 1": "A glowing balance scale with \"Me\" and \"Them\" on each side, perfectly level",
+    "Imagery Idea 2": "A person holding up a brightly colored promise ribbon"
+  },
+  {
+    "Concept": "Appreciation",
+    "Journal Prompt": "What small, everyday gift did someone give you recently that you didn't fully acknowledge?",
+    "Action 1 (Internal/Reflective)": "Write a detailed thank-you note to someone, naming the specific impact they had on you.",
+    "Action 2 (External/Relational)": "Take a photo of something ordinary that brings you joy and share why it matters.",
+    "Imagery Idea 1": "A shower of golden stars falling onto open hands",
+    "Imagery Idea 2": "A vibrant garden blooming with \"thank you\" flowers"
+  },
+  {
+    "Concept": "Authenticity",
+    "Journal Prompt": "When do you perform a version of yourself rather than simply being yourself?",
+    "Action 1 (Internal/Reflective)": "Identify one way you're editing yourself and practice speaking or acting more honestly today.",
+    "Action 2 (External/Relational)": "Share something true about yourself that you usually keep hidden with someone you trust.",
+    "Imagery Idea 1": "A person peeling back layers of a vibrant onion to reveal a glowing core",
+    "Imagery Idea 2": "A chameleon confidently displaying its true colors"
+  },
+  {
+    "Concept": "Awareness",
+    "Journal Prompt": "What did you miss today because your mind was elsewhere?",
+    "Action 1 (Internal/Reflective)": "Practice a 5-minute sensory check-in: 5 things you see, 4 you hear, 3 you feel, 2 you smell, 1 you taste.",
+    "Action 2 (External/Relational)": "Before reacting to something triggering, pause for three breaths and notice what's happening in your body.",
+    "Imagery Idea 1": "A flashlight beam illuminating a hidden, colorful path",
+    "Imagery Idea 2": "An eye wide open, reflecting a complex, beautiful world"
+  },
+  {
+    "Concept": "Belonging",
+    "Journal Prompt": "Where do you feel like you have to prove your worth to belong?",
+    "Action 1 (Internal/Reflective)": "Write about a time you felt truly accepted for who you are. What made it safe?",
+    "Action 2 (External/Relational)": "Reach out to someone who shares a meaningful interest or value and initiate a genuine conversation.",
+    "Imagery Idea 1": "A whimsical patchwork quilt with diverse, colorful fabrics stitched together",
+    "Imagery Idea 2": "A circle of unique, brightly colored creatures holding hands"
+  },
+  {
+    "Concept": "Boundaries",
+    "Journal Prompt": "What drains your energy because you haven't set a clear boundary?",
+    "Action 1 (Internal/Reflective)": "Identify one boundary you need and write out exactly how you'll communicate it.",
+    "Action 2 (External/Relational)": "Say \"no\" to one request that doesn't serve your wellbeing, without over-explaining.",
+    "Imagery Idea 1": "A whimsical, colorful fence with an open gate",
+    "Imagery Idea 2": "A person confidently holding a glowing shield of personal space"
+  },
+  {
+    "Concept": "Breath",
+    "Journal Prompt": "When today did you hold your breath or breathe shallowly? What was happening?",
+    "Action 1 (Internal/Reflective)": "Set three random alarms today. When they sound, take three deep, conscious breaths.",
+    "Action 2 (External/Relational)": "During a stressful conversation, pause to take one full breath before responding.",
+    "Imagery Idea 1": "Glowing lungs filling with swirling, colorful air",
+    "Imagery Idea 2": "A person exhaling a stream of peaceful, shimmering light"
+  },
+  {
+    "Concept": "Candor",
+    "Journal Prompt": "What truth are you avoiding saying because you're afraid of the consequences?",
+    "Action 1 (Internal/Reflective)": "Practice direct communication in a low-stakes situation: state what you mean clearly.",
+    "Action 2 (External/Relational)": "Have a conversation you've been avoiding, focusing on clear and kind honesty.",
+    "Imagery Idea 1": "A clear, shimmering bell ringing a pure tone",
+    "Imagery Idea 2": "A vibrant speech bubble with a transparent, honest message"
+  },
+  {
+    "Concept": "Challenge",
+    "Journal Prompt": "What's difficult in your life right now that might be teaching you something important?",
+    "Action 1 (Internal/Reflective)": "Reframe a current \"problem\" as a question: Instead of \"This is impossible,\" ask \"How might I...?",
+    "Action 2 (External/Relational)": "Try one approach to a persistent challenge that you've been resisting or avoiding.",
+    "Imagery Idea 1": "A winding, colorful path leading to a glowing mountain peak",
+    "Imagery Idea 2": "A playful obstacle course with vibrant, encouraging signs"
+  },
+  {
+    "Concept": "Choice",
+    "Journal Prompt": "Where in your life are you acting like you have no choice?",
+    "Action 1 (Internal/Reflective)": "Identify three options you have in a situation where you feel stuck.",
+    "Action 2 (External/Relational)": "Make one small decision today based purely on what you want, not what you \"should\" do.",
+    "Imagery Idea 1": "A figure standing at a glowing crossroads with multiple vibrant paths",
+    "Imagery Idea 2": "Hands reaching toward floating, shimmering options"
+  },
+  {
+    "Concept": "Clarity",
+    "Journal Prompt": "What decision have you been avoiding that would bring relief once made?",
+    "Action 1 (Internal/Reflective)": "Sit in silence for 10 minutes with a specific question, allowing answers to emerge.",
+    "Action 2 (External/Relational)": "Write down your top three priorities right now—what actually matters most?",
+    "Imagery Idea 1": "A perfectly clear, sparkling crystal ball revealing a vibrant future",
+    "Imagery Idea 2": "A lighthouse beam cutting through colorful fog"
+  },
+  {
+    "Concept": "Collaboration",
+    "Journal Prompt": "When has working with others created something you couldn't have made alone?",
+    "Action 1 (Internal/Reflective)": "Reflect on your collaboration style: Do you tend to control, defer, or truly co-create?",
+    "Action 2 (External/Relational)": "Ask someone for help with something you'd normally do alone.",
+    "Imagery Idea 1": "Vibrant, interlocking gears forming a colorful machine",
+    "Imagery Idea 2": "Many small, diverse hands building a tall, shimmering tower together"
+  },
+  {
+    "Concept": "Commitment",
+    "Journal Prompt": "What have you committed to that no longer serves you?",
+    "Action 1 (Internal/Reflective)": "Choose one promise to yourself and honor it today, no matter how small.",
+    "Action 2 (External/Relational)": "Communicate a commitment to someone else clearly: \"I will...\" with a specific timeline.",
+    "Imagery Idea 1": "A strong, colorful rope tied around a glowing goal",
+    "Imagery Idea 2": "A person with a determined expression crossing a finish line"
+  },
+  {
+    "Concept": "Compassion",
+    "Journal Prompt": "When have you witnessed suffering and turned away from it?",
+    "Action 1 (Internal/Reflective)": "Notice someone struggling today and genuinely wish them ease and peace (even silently).",
+    "Action 2 (External/Relational)": "Offer practical help to someone in need without waiting to be asked.",
+    "Imagery Idea 1": "A gentle hand reaching toward a wounded, glowing heart",
+    "Imagery Idea 2": "A bridge of warm light connecting two beings"
+  },
+  {
+    "Concept": "Connection",
+    "Journal Prompt": "Who have you been taking for granted, assuming they'll always be there?",
+    "Action 1 (Internal/Reflective)": "Put away all devices and give someone 15 minutes of undivided attention.",
+    "Action 2 (External/Relational)": "Ask someone a question about what matters most to them right now and truly listen.",
+    "Imagery Idea 1": "A vibrant web of glowing threads connecting diverse figures",
+    "Imagery Idea 2": "Two hands meeting, creating a burst of colorful light"
+  },
+  {
+    "Concept": "Courage",
+    "Journal Prompt": "What would you do if you weren't afraid of judgment, failure, or discomfort?",
+    "Action 1 (Internal/Reflective)": "Identify one small fear you can face today and take one step toward it.",
+    "Action 2 (External/Relational)": "Speak up for yourself or someone else, even though your voice might shake.",
+    "Imagery Idea 1": "A tiny, brave bird launching itself from a giant, colorful mushroom",
+    "Imagery Idea 2": "A person stepping onto a rainbow tightrope"
+  },
+  {
+    "Concept": "Creativity",
+    "Journal Prompt": "What wants to be expressed through you that you're not allowing?",
+    "Action 1 (Internal/Reflective)": "Create something without any purpose or audience—just for the joy of making.",
+    "Action 2 (External/Relational)": "Share a creative idea or piece of work, even if it feels unfinished or imperfect.",
+    "Imagery Idea 1": "A burst of colorful paint exploding from a cosmic palette",
+    "Imagery Idea 2": "Hands molding glowing, swirling clay into new forms"
+  },
+  {
+    "Concept": "Curiosity",
+    "Journal Prompt": "What assumption are you making that might be wrong?",
+    "Action 1 (Internal/Reflective)": "Spend 15 minutes exploring something ordinary with fresh eyes, asking \"why?\" and \"what if?",
+    "Action 2 (External/Relational)": "Ask someone whose perspective differs from yours to explain their viewpoint—then just listen.",
+    "Imagery Idea 1": "A playful fox peeking from behind a question mark made of glowing vines",
+    "Imagery Idea 2": "A magnifying glass revealing a hidden, vibrant miniature world"
+  },
+  {
+    "Concept": "Discernment",
+    "Journal Prompt": "When has your gut feeling been right, even when logic said otherwise?",
+    "Action 1 (Internal/Reflective)": "Before deciding something, list pros and cons, then ask: \"What does my body tell me?",
+    "Action 2 (External/Relational)": "Observe a situation from three different perspectives before forming your opinion.",
+    "Imagery Idea 1": "Sparkling, balanced scales weighing colorful truths",
+    "Imagery Idea 2": "An owl with wise, glowing eyes seeing through illusions"
+  },
+  {
+    "Concept": "Ease",
+    "Journal Prompt": "Where are you creating unnecessary struggle or complexity?",
+    "Action 1 (Internal/Reflective)": "Identify one task you're overcomplicating and find the simplest way to do it.",
+    "Action 2 (External/Relational)": "Ask for help with something you've been forcing yourself to do alone.",
+    "Imagery Idea 1": "A flowing, shimmering river carrying a colorful boat effortlessly",
+    "Imagery Idea 2": "A person gracefully dancing through a complex pattern"
+  },
+  {
+    "Concept": "Empathy",
+    "Journal Prompt": "When have you made assumptions about someone's experience without really understanding?",
+    "Action 1 (Internal/Reflective)": "Listen to someone today trying to feel what they feel, not just hear their words.",
+    "Action 2 (External/Relational)": "Offer comfort to someone struggling, meeting them where they are without trying to fix them.",
+    "Imagery Idea 1": "A bridge of rainbow colors connecting two different islands",
+    "Imagery Idea 2": "Two hearts glowing and mirroring each other"
+  },
+  {
+    "Concept": "Energy",
+    "Journal Prompt": "What activities drain you? What fills you up?",
+    "Action 1 (Internal/Reflective)": "Notice your energy levels throughout the day and identify the patterns.",
+    "Action 2 (External/Relational)": "Protect your energy by reducing time with one draining activity or person.",
+    "Imagery Idea 1": "A swirling vortex of vibrant colors radiating outward",
+    "Imagery Idea 2": "A playful battery icon charging with sparkling light"
+  },
+  {
+    "Concept": "Evolution",
+    "Journal Prompt": "Who were you a year ago? How have you changed?",
+    "Action 1 (Internal/Reflective)": "Reflect on one belief you've outgrown that no longer serves you.",
+    "Action 2 (External/Relational)": "Try a new approach to something you've always done the same way.",
+    "Imagery Idea 1": "A caterpillar transforming into a vibrant butterfly",
+    "Imagery Idea 2": "A spiral staircase leading upward into a starry sky"
+  },
+  {
+    "Concept": "Expansion",
+    "Journal Prompt": "What self-imposed limitation are you ready to release?",
+    "Action 1 (Internal/Reflective)": "Brainstorm five wild possibilities for something you want, without censoring yourself.",
+    "Action 2 (External/Relational)": "Do something that pushes you slightly beyond your comfort zone.",
+    "Imagery Idea 1": "A small, colorful sprout breaking through a cracked wall",
+    "Imagery Idea 2": "A person stretching their arms wide, touching distant, glowing stars"
+  },
+  {
+    "Concept": "Flow",
+    "Journal Prompt": "When do you lose track of time because you're so absorbed in what you're doing?",
+    "Action 1 (Internal/Reflective)": "Identify one activity that puts you in flow and schedule uninterrupted time for it.",
+    "Action 2 (External/Relational)": "Engage in creative work without judgment or attachment to outcome.",
+    "Imagery Idea 1": "A person effortlessly surfing on a wave of vibrant colors",
+    "Imagery Idea 2": "A winding river of light moving through a landscape"
+  },
+  {
+    "Concept": "Forgiveness",
+    "Journal Prompt": "What resentment are you carrying that's heavier for you than for them?",
+    "Action 1 (Internal/Reflective)": "Write a letter of forgiveness to yourself or someone else (you don't have to send it).",
+    "Action 2 (External/Relational)": "Let go of one grudge by consciously deciding: \"I'm done carrying this.",
+    "Imagery Idea 1": "A broken, colorful chain gently dissolving into shimmering dust",
+    "Imagery Idea 2": "A bright, open hand releasing a heavy, dark stone"
+  },
+  {
+    "Concept": "Freedom",
+    "Journal Prompt": "What obligation or \"should\" are you ready to release?",
+    "Action 1 (Internal/Reflective)": "Identify one commitment that no longer serves you and consider releasing it.",
+    "Action 2 (External/Relational)": "Spend time in nature with no agenda, letting your mind wander completely.",
+    "Imagery Idea 1": "A colorful hot air balloon drifting above a tangled, broken fence",
+    "Imagery Idea 2": "A person shedding a heavy, gray cloak to reveal bright clothes underneath"
+  },
+  {
+    "Concept": "Generosity",
+    "Journal Prompt": "When has giving freely brought you as much joy as receiving?",
+    "Action 1 (Internal/Reflective)": "Offer genuine, specific praise to three different people today.",
+    "Action 2 (External/Relational)": "Give your time or skills to support someone or a cause you care about.",
+    "Imagery Idea 1": "A vibrant watering can sprinkling golden glitter onto a flourishing garden",
+    "Imagery Idea 2": "A hand offering a rainbow gift box that continually replenishes"
+  },
+  {
+    "Concept": "Grace",
+    "Journal Prompt": "When have you been clumsy, imperfect, or wrong—and still been okay?",
+    "Action 1 (Internal/Reflective)": "Notice one mistake you make today and respond with gentleness instead of self-criticism.",
+    "Action 2 (External/Relational)": "Offer someone grace for their imperfection or mistake without pointing it out.",
+    "Imagery Idea 1": "A figure stumbling but being caught by soft, glowing hands",
+    "Imagery Idea 2": "A gentle light softening harsh shadows"
+  },
+  {
+    "Concept": "Gratitude",
+    "Journal Prompt": "What are you taking for granted that you'd miss if it disappeared?",
+    "Action 1 (Internal/Reflective)": "Write three new things you're grateful for each day this week, focusing on the overlooked.",
+    "Action 2 (External/Relational)": "Express specific gratitude to someone, naming exactly what they did and how it affected you.",
+    "Imagery Idea 1": "A basket overflowing with glowing, heart-shaped items",
+    "Imagery Idea 2": "A person looking up at a sky full of sparkling \"thank you\" messages"
+  },
+  {
+    "Concept": "Grief",
+    "Journal Prompt": "What loss have you not fully allowed yourself to feel?",
+    "Action 1 (Internal/Reflective)": "Set a timer for 10 minutes and give yourself permission to feel whatever needs to be felt.",
+    "Action 2 (External/Relational)": "Share your grief with someone safe who can simply witness it without trying to fix it.",
+    "Imagery Idea 1": "A figure holding a dark, heavy vessel that's beginning to glow",
+    "Imagery Idea 2": "Rain falling on parched earth, bringing new growth"
+  },
+  {
+    "Concept": "Growth",
+    "Journal Prompt": "What's uncomfortable right now that might be growing you?",
+    "Action 1 (Internal/Reflective)": "Reflect on a recent difficulty and ask: \"What is this teaching me?\"",
+    "Action 2 (External/Relational)": "Seek feedback from someone you trust about an area where you want to develop.",
+    "Imagery Idea 1": "A seed cracking open as roots and shoots emerge",
+    "Imagery Idea 2": "A figure climbing stairs that appear as they step"
+  },
+  {
+    "Concept": "Honesty",
+    "Journal Prompt": "What are you pretending not to know?",
+    "Action 1 (Internal/Reflective)": "Practice radical honesty with yourself in your journal about something you've been avoiding.",
+    "Action 2 (External/Relational)": "Tell someone a truth you've been withholding, with kindness and care.",
+    "Imagery Idea 1": "A clear, sparkling glass prism revealing a hidden spectrum of colors",
+    "Imagery Idea 2": "A person gently opening a locked, glowing box"
+  },
+  {
+    "Concept": "Humility",
+    "Journal Prompt": "When has admitting \"I don't know\" or \"I was wrong\" opened a door?",
+    "Action 1 (Internal/Reflective)": "Listen to feedback today as information, not criticism—what might be true about it?",
+    "Action 2 (External/Relational)": "Acknowledge a mistake out loud without justifying, defending, or explaining.",
+    "Imagery Idea 1": "A giant, colorful tree bowing gently to a tiny, glowing mushroom",
+    "Imagery Idea 2": "A wise figure listening intently to a small voice"
+  },
+  {
+    "Concept": "Humor",
+    "Journal Prompt": "What are you taking too seriously right now?",
+    "Action 1 (Internal/Reflective)": "Find one way to laugh at yourself or a situation today.",
+    "Action 2 (External/Relational)": "Share something funny or lighthearted with someone who needs a lift.",
+    "Imagery Idea 1": "A jester juggling glowing, wobbling bubbles of seriousness",
+    "Imagery Idea 2": "A belly laugh creating ripples of colorful light"
+  },
+  {
+    "Concept": "Integrity",
+    "Journal Prompt": "Where are your actions out of alignment with your values?",
+    "Action 1 (Internal/Reflective)": "Identify one area where you're not walking your talk and commit to one aligned action.",
+    "Action 2 (External/Relational)": "Review your commitments—honor those that align with your values, release those that don't.",
+    "Imagery Idea 1": "A towering, colorful tree with roots firmly planted in glowing values",
+    "Imagery Idea 2": "A compass pointing precisely toward a shimmering North Star"
+  },
+  {
+    "Concept": "Intention",
+    "Journal Prompt": "What do you want to create or become through your actions today?",
+    "Action 1 (Internal/Reflective)": "Before starting your day, set one clear intention for how you want to show up.",
+    "Action 2 (External/Relational)": "Before an important conversation, pause and set an intention for how you want to be.",
+    "Imagery Idea 1": "An arrow made of colorful light flying toward a glowing target",
+    "Imagery Idea 2": "A person planting a vibrant seed of purpose"
+  },
+  {
+    "Concept": "Interconnection",
+    "Journal Prompt": "How do your actions ripple out to affect others?",
+    "Action 1 (Internal/Reflective)": "Reflect on how you're connected to your community, ecosystem, or the larger world.",
+    "Action 2 (External/Relational)": "Make one choice today that considers its impact on others or the environment.",
+    "Imagery Idea 1": "A vibrant, intricate web of glowing threads connecting everything",
+    "Imagery Idea 2": "A diverse group of hands holding onto a single, shimmering heart"
+  },
+  {
+    "Concept": "Joy",
+    "Journal Prompt": "What brings you delight that you don't allow yourself enough of?",
+    "Action 1 (Internal/Reflective)": "Schedule dedicated time this week for something that brings you pure joy.",
+    "Action 2 (External/Relational)": "Notice and fully savor one simple pleasure today—a taste, sound, sight, or sensation.",
+    "Imagery Idea 1": "A dancing explosion of confetti and glitter",
+    "Imagery Idea 2": "A child with wide eyes surrounded by floating bubbles of laughter"
+  },
+  {
+    "Concept": "Kindness",
+    "Journal Prompt": "How can you be gentle with yourself or someone else today?",
+    "Action 1 (Internal/Reflective)": "Notice your self-talk and replace one critical thought with a kind one.",
+    "Action 2 (External/Relational)": "Do something thoughtful for someone without them knowing it was you.",
+    "Imagery Idea 1": "A gentle, oversized hand offering a soft blanket to a small creature",
+    "Imagery Idea 2": "A garden blooming with heart-shaped flowers"
+  },
+  {
+    "Concept": "Learning",
+    "Journal Prompt": "What would you love to learn or understand better?",
+    "Action 1 (Internal/Reflective)": "Dedicate 20 minutes to learning something new that genuinely interests you.",
+    "Action 2 (External/Relational)": "Ask someone with expertise in something you're curious about to teach you something.",
+    "Imagery Idea 1": "A stack of whimsical, colorful books with glowing pages",
+    "Imagery Idea 2": "A lightbulb above an open brain filled with swirling ideas"
+  },
+  {
+    "Concept": "Letting Go",
+    "Journal Prompt": "What are you clinging to that's preventing something new from arriving?",
+    "Action 1 (Internal/Reflective)": "Write down something you're ready to release, then tear up the paper or delete the note.",
+    "Action 2 (External/Relational)": "Clear out one physical space (drawer, closet, digital folder) and notice how it feels.",
+    "Imagery Idea 1": "A hand opening to release a glowing butterfly",
+    "Imagery Idea 2": "Autumn leaves falling gracefully from a vibrant tree"
+  },
+  {
+    "Concept": "Listening",
+    "Journal Prompt": "How often do you truly listen versus waiting for your turn to talk?",
+    "Action 1 (Internal/Reflective)": "In your next conversation, focus entirely on understanding without planning your response.",
+    "Action 2 (External/Relational)": "Ask someone \"What's important to you right now?\" and simply listen for 5 minutes.",
+    "Imagery Idea 1": "A large, colorful ear collecting shimmering sound waves",
+    "Imagery Idea 2": "Two people facing each other with vibrant, open hearts"
+  },
+  {
+    "Concept": "Love",
+    "Journal Prompt": "How are you withholding love from yourself or others?",
+    "Action 1 (Internal/Reflective)": "Identify one way you can love yourself better and take one action toward it.",
+    "Action 2 (External/Relational)": "Express love to someone in the specific way they most feel loved.",
+    "Imagery Idea 1": "An overflowing, glowing heart radiating warmth and colorful light",
+    "Imagery Idea 2": "A gentle embrace creating a rainbow aura"
+  },
+  {
+    "Concept": "Meaning",
+    "Journal Prompt": "What gives your life purpose and significance?",
+    "Action 1 (Internal/Reflective)": "Reflect on moments when you've felt that what you're doing truly matters.",
+    "Action 2 (External/Relational)": "Engage in one activity today that feels meaningful rather than merely productive.",
+    "Imagery Idea 1": "A glowing thread weaving through life's experiences",
+    "Imagery Idea 2": "A person discovering a hidden treasure in the ordinary"
+  },
+  {
+    "Concept": "Mindfulness",
+    "Journal Prompt": "Where did your mind wander today when your body was somewhere else?",
+    "Action 1 (Internal/Reflective)": "Practice 5 minutes of focused attention on your breath or a simple task.",
+    "Action 2 (External/Relational)": "Eat one meal with full attention to taste, texture, and sensation.",
+    "Imagery Idea 1": "A calm, still pond reflecting a vibrant, detailed world",
+    "Imagery Idea 2": "A person sitting peacefully amid a swirling storm, holding a glowing anchor"
+  },
+  {
+    "Concept": "Mystery",
+    "Journal Prompt": "What do you not need to understand or control right now?",
+    "Action 1 (Internal/Reflective)": "Sit with an unanswered question without trying to solve it.",
+    "Action 2 (External/Relational)": "Share something you don't understand with someone, exploring it together without needing answers.",
+    "Imagery Idea 1": "A doorway opening into swirling, glowing cosmos",
+    "Imagery Idea 2": "A figure gazing into an infinite, starry expanse"
+  },
+  {
+    "Concept": "Patience",
+    "Journal Prompt": "What are you rushing that needs more time?",
+    "Action 1 (Internal/Reflective)": "Practice waiting calmly in one situation today without checking your phone or distracting yourself.",
+    "Action 2 (External/Relational)": "Focus on a long-term goal without needing to see immediate results.",
+    "Imagery Idea 1": "A colorful seedling slowly unfurling its leaves toward the sun",
+    "Imagery Idea 2": "A gentle river carving a path through solid rock"
+  },
+  {
+    "Concept": "Perspective",
+    "Journal Prompt": "What story are you telling yourself that might not be the whole truth?",
+    "Action 1 (Internal/Reflective)": "Write about a current challenge from three completely different viewpoints.",
+    "Action 2 (External/Relational)": "Ask \"What else could be true about this?\" when you feel certain about something.",
+    "Imagery Idea 1": "A kaleidoscope rotating to reveal new, vibrant patterns",
+    "Imagery Idea 2": "A hot air balloon hovering above a landscape, offering a wide view"
+  },
+  {
+    "Concept": "Play",
+    "Journal Prompt": "When was the last time you did something just for fun?",
+    "Action 1 (Internal/Reflective)": "Spend 15 minutes on a playful activity with no purpose beyond enjoyment.",
+    "Action 2 (External/Relational)": "Introduce an element of silliness or lightness into a routine task.",
+    "Imagery Idea 1": "A cascade of colorful bubbles and balloons",
+    "Imagery Idea 2": "A person joyfully dancing through a vibrant meadow"
+  },
+  {
+    "Concept": "Possibility",
+    "Journal Prompt": "What \"impossible\" dream are you dismissing too quickly?",
+    "Action 1 (Internal/Reflective)": "Brainstorm 10 unlikely solutions to a challenge without judging any of them.",
+    "Action 2 (External/Relational)": "Take one tiny step toward something you want but haven't let yourself pursue.",
+    "Imagery Idea 1": "A key unlocking a gate to a swirling galaxy of stars",
+    "Imagery Idea 2": "A person painting a vibrant, fantastical world onto a blank canvas"
+  },
+  {
+    "Concept": "Presence",
+    "Journal Prompt": "Who or what deserves your full attention that you've been only half-seeing?",
+    "Action 1 (Internal/Reflective)": "Put away all devices and give someone or something your complete attention for 10 minutes.",
+    "Action 2 (External/Relational)": "Notice when your mind wanders during a conversation and gently bring it back.",
+    "Imagery Idea 1": "Two colorful figures with glowing auras, truly seeing each other",
+    "Imagery Idea 2": "A spotlight shining on a single, focused moment amid a busy scene"
+  },
+  {
+    "Concept": "Purpose",
+    "Journal Prompt": "What matters so much to you that you'd do it even if no one noticed?",
+    "Action 1 (Internal/Reflective)": "Reflect on your core values and how they connect to how you spend your time.",
+    "Action 2 (External/Relational)": "Take one action today that aligns with your deeper sense of purpose.",
+    "Imagery Idea 1": "A shining star guiding a colorful ship across a night sky",
+    "Imagery Idea 2": "A person standing tall, illuminated by a glowing inner compass"
+  },
+  {
+    "Concept": "Reciprocity",
+    "Journal Prompt": "Where are you giving too much or receiving too little?",
+    "Action 1 (Internal/Reflective)": "Notice the balance of give and take in your relationships—what needs adjusting?",
+    "Action 2 (External/Relational)": "Practice receiving graciously when someone offers help or a compliment.",
+    "Imagery Idea 1": "Two figures passing a glowing object back and forth",
+    "Imagery Idea 2": "A balanced, flowing exchange of colorful energy"
+  },
+  {
+    "Concept": "Reflection",
+    "Journal Prompt": "What are you avoiding looking at?",
+    "Action 1 (Internal/Reflective)": "Spend 15 minutes journaling about your day, noting patterns or insights.",
+    "Action 2 (External/Relational)": "Review a recent decision or experience and identify one lesson you learned.",
+    "Imagery Idea 1": "A calm, shimmering pool reflecting a thoughtful moon",
+    "Imagery Idea 2": "A mirror showing a person's inner glow and wisdom"
+  },
+  {
+    "Concept": "Renewal",
+    "Journal Prompt": "What needs to die so something new can be born?",
+    "Action 1 (Internal/Reflective)": "Engage in an activity that helps you feel refreshed and restored.",
+    "Action 2 (External/Relational)": "Take a break from something draining to create space for new energy.",
+    "Imagery Idea 1": "A vibrant phoenix rising from colorful ashes",
+    "Imagery Idea 2": "A spring flower unfurling after winter, radiating new energy"
+  },
+  {
+    "Concept": "Resilience",
+    "Journal Prompt": "What has trying to break you actually made you stronger?",
+    "Action 1 (Internal/Reflective)": "Recall a past challenge you survived and acknowledge the strength it revealed.",
+    "Action 2 (External/Relational)": "When facing a setback, identify one small action you can take to move forward.",
+    "Imagery Idea 1": "A flexible, colorful tree bending in strong wind but not breaking",
+    "Imagery Idea 2": "A ball bouncing back higher after hitting the ground"
+  },
+  {
+    "Concept": "Responsibility",
+    "Journal Prompt": "Where are you blaming circumstances for something you could change?",
+    "Action 1 (Internal/Reflective)": "Identify one area where you're playing victim and commit to taking ownership.",
+    "Action 2 (External/Relational)": "Communicate a boundary or expectation clearly, taking responsibility for your needs.",
+    "Imagery Idea 1": "A person confidently holding the reins of a vibrant hot air balloon",
+    "Imagery Idea 2": "A character catching a falling ball with a knowing smile"
+  },
+  {
+    "Concept": "Rest",
+    "Journal Prompt": "How are you resisting the rest you need?",
+    "Action 1 (Internal/Reflective)": "Give yourself permission to truly rest for 30 minutes without guilt or productivity.",
+    "Action 2 (External/Relational)": "Go to bed 30 minutes earlier than usual tonight.",
+    "Imagery Idea 1": "A figure curled peacefully in a glowing hammock",
+    "Imagery Idea 2": "A sleeping creature surrounded by protective, shimmering light"
+  },
+  {
+    "Concept": "Reverence",
+    "Journal Prompt": "What deserves your respect and wonder that you've been taking for granted?",
+    "Action 1 (Internal/Reflective)": "Spend time in nature or with something beautiful, approaching it with awe.",
+    "Action 2 (External/Relational)": "Treat an ordinary moment or object as sacred—what do you notice?",
+    "Imagery Idea 1": "A figure bowing before a towering, ancient tree",
+    "Imagery Idea 2": "Hands held in prayer before a simple, glowing flower"
+  },
+  {
+    "Concept": "Self-Compassion",
+    "Journal Prompt": "How are you treating yourself more harshly than you'd treat a friend?",
+    "Action 1 (Internal/Reflective)": "Write yourself a compassionate letter about a current struggle.",
+    "Action 2 (External/Relational)": "Notice critical self-talk and replace it with what you'd say to someone you love.",
+    "Imagery Idea 1": "A warm, glowing hand gently cradling a bruised heart",
+    "Imagery Idea 2": "A person giving themselves a cozy, colorful hug"
+  },
+  {
+    "Concept": "Silence",
+    "Journal Prompt": "When did you last experience true quiet?",
+    "Action 1 (Internal/Reflective)": "Sit in complete silence for 10 minutes, noticing what arises.",
+    "Action 2 (External/Relational)": "Create one pocket of silence in your day by turning off all sound.",
+    "Imagery Idea 1": "An empty, peaceful space with a single glowing candle",
+    "Imagery Idea 2": "A figure with closed eyes, surrounded by soundless stars"
+  },
+  {
+    "Concept": "Simplicity",
+    "Journal Prompt": "What are you overcomplicating?",
+    "Action 1 (Internal/Reflective)": "Identify one area of your life and ask: \"What's the simplest way?",
+    "Action 2 (External/Relational)": "Remove one unnecessary commitment, possession, or complexity from your life.",
+    "Imagery Idea 1": "A single, perfect line drawn with intention",
+    "Imagery Idea 2": "A clear, uncluttered space with one beautiful object"
+  },
+  {
+    "Concept": "Sovereignty",
+    "Journal Prompt": "Where are you giving your power away?",
+    "Action 1 (Internal/Reflective)": "Make one decision today based purely on your inner wisdom, not others' opinions.",
+    "Action 2 (External/Relational)": "Set a boundary that protects your autonomy and wellbeing.",
+    "Imagery Idea 1": "A person wearing a vibrant, glowing crown of self-power",
+    "Imagery Idea 2": "A unique, colorful flag planted firmly on a personal island"
+  },
+  {
+    "Concept": "Spaciousness",
+    "Journal Prompt": "Where do you need more room to breathe?",
+    "Action 1 (Internal/Reflective)": "Take three deep breaths and consciously create space between your thoughts.",
+    "Action 2 (External/Relational)": "Declutter one physical or digital space, noticing the lightness it creates.",
+    "Imagery Idea 1": "A vast, open sky with wisps of colorful clouds",
+    "Imagery Idea 2": "A serene, empty room with a single glowing cushion"
+  },
+  {
+    "Concept": "Stillness",
+    "Journal Prompt": "What are you avoiding by staying busy?",
+    "Action 1 (Internal/Reflective)": "Practice 5 minutes of complete stillness, without meditation or agenda.",
+    "Action 2 (External/Relational)": "Sit quietly in nature for 10 minutes, simply observing.",
+    "Imagery Idea 1": "A calm, perfectly still lake reflecting a starry night",
+    "Imagery Idea 2": "A gentle, quiet light radiating peace"
+  },
+  {
+    "Concept": "Strength",
+    "Journal Prompt": "What challenges have revealed your resilience?",
+    "Action 1 (Internal/Reflective)": "Acknowledge one way you're stronger than you give yourself credit for.",
+    "Action 2 (External/Relational)": "Use your strength to support someone who needs it right now.",
+    "Imagery Idea 1": "A figure lifting a glowing weight with ease",
+    "Imagery Idea 2": "Roots growing deep and strong beneath a vibrant tree"
+  },
+  {
+    "Concept": "Surrender",
+    "Journal Prompt": "What are you trying to control that isn't yours to control?",
+    "Action 1 (Internal/Reflective)": "Identify one thing you're trying to force and practice letting it be.",
+    "Action 2 (External/Relational)": "Ask for help with something you've been trying to manage alone.",
+    "Imagery Idea 1": "A figure floating peacefully in a starry river",
+    "Imagery Idea 2": "Hands releasing a bird into open sky"
+  },
+  {
+    "Concept": "Transformation",
+    "Journal Prompt": "What part of you is ready to evolve?",
+    "Action 1 (Internal/Reflective)": "Visualize yourself having changed in a way you desire—how does it feel?",
+    "Action 2 (External/Relational)": "Take one action today that your future self will thank you for.",
+    "Imagery Idea 1": "A vibrant cocoon opening to reveal a dazzling butterfly",
+    "Imagery Idea 2": "A bridge arching over a dramatic, colorful chasm"
+  },
+  {
+    "Concept": "Trust",
+    "Journal Prompt": "Where is your lack of trust keeping you small or stuck?",
+    "Action 1 (Internal/Reflective)": "Identify one act of self-trust you can take today (following intuition, honoring a boundary).",
+    "Action 2 (External/Relational)": "Delegate something you usually control and trust someone else to handle it.",
+    "Imagery Idea 1": "A colorful bridge forming across a shimmering chasm",
+    "Imagery Idea 2": "Two characters holding hands and leaning back, fully supported"
+  },
+  {
+    "Concept": "Truth",
+    "Journal Prompt": "What are you pretending not to see?",
+    "Action 1 (Internal/Reflective)": "Write down one truth you've been avoiding and sit with how it feels.",
+    "Action 2 (External/Relational)": "Speak a truth you've been withholding, even if your voice shakes.",
+    "Imagery Idea 1": "A mirror reflecting what's really there, not what we wish",
+    "Imagery Idea 2": "Light breaking through cracks in a facade"
+  },
+  {
+    "Concept": "Uncertainty",
+    "Journal Prompt": "What would become possible if you could be okay with not knowing?",
+    "Action 1 (Internal/Reflective)": "Practice sitting with uncertainty for 10 minutes without reaching for answers.",
+    "Action 2 (External/Relational)": "Try something new without researching or planning every detail first.",
+    "Imagery Idea 1": "A foggy path with glimpses of vibrant, unknown landscapes",
+    "Imagery Idea 2": "A person confidently stepping into colorful mist"
+  },
+  {
+    "Concept": "Understanding",
+    "Journal Prompt": "Who have you judged without truly trying to understand?",
+    "Action 1 (Internal/Reflective)": "Ask someone why they believe or do something you disagree with, with genuine curiosity.",
+    "Action 2 (External/Relational)": "Seek to understand before being understood in your next disagreement.",
+    "Imagery Idea 1": "A puzzle coming together to reveal a beautiful picture",
+    "Imagery Idea 2": "A light illuminating hidden connections"
+  },
+  {
+    "Concept": "Vulnerability",
+    "Journal Prompt": "What are you protecting yourself from by staying armored?",
+    "Action 1 (Internal/Reflective)": "Share a fear or insecurity with someone you trust.",
+    "Action 2 (External/Relational)": "Allow yourself to be seen imperfectly rather than striving to appear flawless.",
+    "Imagery Idea 1": "A delicate, glowing bubble held gently in an open hand",
+    "Imagery Idea 2": "A person with a transparent heart, revealing true feelings"
+  },
+  {
+    "Concept": "Wholeheartedness",
+    "Journal Prompt": "Where are you holding back or half-committing?",
+    "Action 1 (Internal/Reflective)": "Choose one task and do it with full attention and effort.",
+    "Action 2 (External/Relational)": "Show up more fully in an area where you've been holding back.",
+    "Imagery Idea 1": "A vibrant, overflowing heart radiating colorful light",
+    "Imagery Idea 2": "A person diving fully into a swirling pool with a joyful splash"
+  },
+  {
+    "Concept": "Wisdom",
+    "Journal Prompt": "What do you know now that you wish you'd known sooner?",
+    "Action 1 (Internal/Reflective)": "Reflect on a lesson learned from a past mistake or challenge.",
+    "Action 2 (External/Relational)": "Seek counsel from someone whose judgment you respect.",
+    "Imagery Idea 1": "An ancient, glowing tree with deep roots and shimmering leaves",
+    "Imagery Idea 2": "A wise owl with eyes that sparkle with understanding"
+  },
+  {
+    "Concept": "Wonder",
+    "Journal Prompt": "What have you stopped marveling at?",
+    "Action 1 (Internal/Reflective)": "Observe something familiar as if seeing it for the first time.",
+    "Action 2 (External/Relational)": "Ask a child what amazes them and try to see it through their eyes.",
+    "Imagery Idea 1": "A figure gazing up at a sky filled with impossible colors",
+    "Imagery Idea 2": "A magnifying glass revealing infinite detail in something tiny"
+  }
+]

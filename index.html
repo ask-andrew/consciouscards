@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conscious Living Cards - Your daily dose of mindful reflection and personal growth">
+    <meta name="theme-color" content="#64D9C3">
+    <title>Conscious Living Cards</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="logo.png">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Link to your custom stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- html2canvas for generating images from HTML -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+<body>
+    <header class="header" role="banner">
+        <div class="header-content">
+            <img src="logo.png" alt="Conscious Living Logo" class="header-logo">
+        </div>
+    </header>
+
+    <main class="card-container" role="main">
+        <div class="card" id="current-card" role="article">
+            <div class="card-inner">
+                <div class="card-front" aria-label="Card front">
+                    <div class="card-branding">Conscious Cards</div>
+                    <h2 id="card-concept" class="card-title"></h2>
+                    <div class="card-front-content">
+                        <p class="card-label">Journal Prompt:</p>
+                        <p id="card-prompt" class="card-text"></p>
+                    </div>
+                    <button id="flip-to-back-button" class="flip-button" aria-label="Flip to back of card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rotate-cw" aria-hidden="true"><polyline points="23 4 23 10 17 10"></polyline><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path></svg>
+                    </button>
+                </div>
+                <div class="card-back" aria-label="Card back">
+                    <div class="card-branding card-branding-back">Conscious Cards</div>
+                    <h3 id="card-concept-back" class="card-title card-title-back"></h3>
+                    <div class="card-back-content">
+                        <p class="card-label">Suggested Actions:</p>
+                        <p id="card-actions" class="card-text"></p>
+                    </div>
+                    <p class="card-back-reflection-text">Reflect deeply on these actions.</p>
+                    <p class="card-back-reflection-text">How can you integrate them into your day?</p>
+                    <button id="flip-to-front-button" class="flip-button" aria-label="Flip to front of card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rotate-ccw" aria-hidden="true"><polyline points="1 10 1 4 7 4"></polyline><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 4"></path></svg>
+                    </button>
+                </div>
+            </div>
+            <div id="copy-message" class="copy-message hidden" role="alert">Image downloaded! Attach to email.</div>
+        </div>
+        <div class="card-buttons">
+            <button id="share-card-btn" class="action-button share-button" aria-label="Share card with a friend">
+                <span class="button-text">Share with a friend</span>
+            </button>
+            <button id="new-card-btn" class="action-button new-card-button" aria-label="Get a new card">
+                <span class="button-text">Get New Card</span>
+            </button>
+        </div>
+<section class="placeholder-section" id="waitlist-placeholder">
+    <div class="placeholder-content">
+        <h2>🚀 Shape the Future: Join Our Exclusive Pilot Group! 🚀</h2>
+        <p>Be among the very first to experience Conscious Living Cards. Get early access, provide invaluable feedback, and help us refine these powerful tools before anyone else.</p>
+        <div class="waitlist-button-area">
+            <a href="https://form.jotform.com/251706877339065" target="_blank" class="button">Join the Pilot Waitlist Now!</a>
+        </div>
+        <p class="placeholder-note">Limited spaces available. Secure your place today!</p>
+    </div>
+</section>
+    </main>
+
+    <!-- Link to your JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>

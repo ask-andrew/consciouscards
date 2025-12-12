@@ -1,0 +1,659 @@
+[
+  {
+    "Concept": "Abundance",
+    "Journal Prompt": "What do you have in abundance that money can't buy? How does this richness show up in your daily life? Think beyond material possessions—consider the abundance of time with loved ones, moments of laughter, skills you've developed, or even the simple luxury of a quiet morning. Write about how you experience this abundance, and imagine what your life would look like if you approached each day from this place of richness rather than scarcity. What might shift in how you make decisions or relate to others?",
+    "Action 1 (Internal/Reflective)": "List 10 things you're grateful for, focusing on the overlooked and ordinary.",
+    "Action 2 (External/Relational)": "Give away something you value to someone who would treasure it.",
+    "Imagery Idea 1": "A cornucopia overflowing with colorful, glowing fruits and vegetables",
+    "Imagery Idea 2": "A joyful rain of sparkling coins and hearts",
+    "Theme_Tags": ["gratitude", "mindfulness", "perspective-shift", "daily-practice", "joy"]
+  },
+  {
+    "Concept": "Acceptance",
+    "Journal Prompt": "What are you resisting right now? What might happen if you stopped fighting it? Consider a situation, emotion, or aspect of yourself that you're pushing against—maybe it's a feeling of sadness, a personality trait, or circumstances beyond your control. Explore what energy you're expending in this resistance and what that energy costs you. Then imagine: if you were to accept this fully, even temporarily, what space might open up? What could you do with that freed energy?",
+    "Action 1 (Internal/Reflective)": "When a difficult emotion arises, name it without judgment: \"This is anger\" or \"This is grief.\"",
+    "Action 2 (External/Relational)": "Choose one thing you've been trying to change and practice accepting it for 24 hours.",
+    "Imagery Idea 1": "A person calmly holding a tangled ball of colorful yarn",
+    "Imagery Idea 2": "A river flowing smoothly around a large, unmovable rock",
+    "Theme_Tags": ["emotional-wellness", "letting-go", "self-compassion", "healing", "grief"]
+  },
+  {
+    "Concept": "Accountability",
+    "Journal Prompt": "When have you blamed circumstances or others for an outcome you helped create? Think of a specific situation where things didn't go as planned—maybe a relationship that deteriorated, a project that failed, or a goal you didn't reach. Without harsh self-judgment, explore the ways your choices, actions, or inactions contributed to what happened. What would it mean to own your part fully? Looking forward, how might taking responsibility for your role empower you to create different outcomes in the future?",
+    "Action 1 (Internal/Reflective)": "Reflect on a current challenge and write down three ways you've contributed to it.",
+    "Action 2 (External/Relational)": "Apologize to someone for a specific impact you had, without justifying or explaining.",
+    "Imagery Idea 1": "A glowing balance scale with \"Me\" and \"Them\" on each side, perfectly level",
+    "Imagery Idea 2": "A person holding up a brightly colored promise ribbon",
+    "Theme_Tags": ["relationships", "personal-growth", "leadership", "integrity", "workplace"]
+  },
+  {
+    "Concept": "Appreciation",
+    "Journal Prompt": "What small, everyday gift did someone give you recently that you didn't fully acknowledge? It might be a text message that came at the right time, someone holding a door, a coworker covering for you, or a partner doing a thankless chore. Write about why you think you missed it in the moment—were you distracted, stressed, or simply rushing? Reflect on what it might have meant for them to offer this gesture. How could you acknowledge it now, and what would it feel like to move through life more attuned to these quiet acts of care?",
+    "Action 1 (Internal/Reflective)": "Write a detailed thank-you note to someone, naming the specific impact they had on you.",
+    "Action 2 (External/Relational)": "Take a photo of something ordinary that brings you joy and share why it matters.",
+    "Imagery Idea 1": "A shower of golden stars falling onto open hands",
+    "Imagery Idea 2": "A vibrant garden blooming with \"thank you\" flowers",
+    "Theme_Tags": ["gratitude", "relationships", "mindfulness", "daily-practice", "social-connection"]
+  },
+  {
+    "Concept": "Authenticity",
+    "Journal Prompt": "When do you perform a version of yourself rather than simply being yourself? Picture the different contexts of your life—at work, with family, on social media, with certain friends. Where do you edit your words, hide your opinions, or present a curated version of who you are? Explore what you fear might happen if you showed up more genuinely in these spaces. Then imagine a future where you speak and act from your truth more consistently—what becomes possible in your relationships, your work, your sense of freedom?",
+    "Action 1 (Internal/Reflective)": "Identify one way you're editing yourself and practice speaking or acting more honestly today.",
+    "Action 2 (External/Relational)": "Share something true about yourself that you usually keep hidden with someone you trust.",
+    "Imagery Idea 1": "A person peeling back layers of a vibrant onion to reveal a glowing core",
+    "Imagery Idea 2": "A chameleon confidently displaying its true colors",
+    "Theme_Tags": ["self-discovery", "relationships", "courage", "workplace", "social-media", "self-trust"]
+  },
+  {
+    "Concept": "Awareness",
+    "Journal Prompt": "What did you miss today because your mind was elsewhere? Think about moments when your body was present but your consciousness was scattered—scrolling while someone talked to you, eating without tasting, driving on autopilot. What were you thinking about instead, and why did those thoughts pull you away? Recall one specific moment you wish you'd been more present for. Looking ahead, what matters enough to you that you want to show up more fully for it? What small practice could help you notice when you've drifted away?",
+    "Action 1 (Internal/Reflective)": "Practice a 5-minute sensory check-in: 5 things you see, 4 you hear, 3 you feel, 2 you smell, 1 you taste.",
+    "Action 2 (External/Relational)": "Before reacting to something triggering, pause for three breaths and notice what's happening in your body.",
+    "Imagery Idea 1": "A flashlight beam illuminating a hidden, colorful path",
+    "Imagery Idea 2": "An eye wide open, reflecting a complex, beautiful world",
+    "Theme_Tags": ["mindfulness", "daily-practice", "emotional-wellness", "stress-management", "presence"]
+  },
+  {
+    "Concept": "Belonging",
+    "Journal Prompt": "Where do you feel like you have to prove your worth to belong? Explore the groups, spaces, or relationships where you feel the need to earn your place—maybe it's at work, in a friend group, within your family, or even online communities. What are you trying to prove, and to whom? Think back to a time when you felt you belonged without having to perform or achieve. What made that different? Imagine creating or finding more spaces where your presence alone is enough—what would you seek out, and who would you want beside you?",
+    "Action 1 (Internal/Reflective)": "Write about a time you felt truly accepted for who you are. What made it safe?",
+    "Action 2 (External/Relational)": "Reach out to someone who shares a meaningful interest or value and initiate a genuine conversation.",
+    "Imagery Idea 1": "A whimsical patchwork quilt with diverse, colorful fabrics stitched together",
+    "Imagery Idea 2": "A circle of unique, brightly colored creatures holding hands",
+    "Theme_Tags": ["relationships", "self-worth", "community", "workplace", "social-connection", "authenticity"]
+  },
+  {
+    "Concept": "Boundaries",
+    "Journal Prompt": "What drains your energy because you haven't set a clear boundary? Identify a situation where you consistently feel resentful, exhausted, or taken advantage of. Why haven't you set a boundary there—is it fear of conflict, guilt, worry about being seen as difficult, or something else? Write out what a healthy boundary would look like in this situation, using clear language. How might your relationships or daily life improve if you protected your time, energy, and wellbeing more consistently? What would it feel like to stop over-giving?",
+    "Action 1 (Internal/Reflective)": "Identify one boundary you need and write out exactly how you'll communicate it.",
+    "Action 2 (External/Relational)": "Say \"no\" to one request that doesn't serve your wellbeing, without over-explaining.",
+    "Imagery Idea 1": "A whimsical, colorful fence with an open gate",
+    "Imagery Idea 2": "A person confidently holding a glowing shield of personal space",
+    "Theme_Tags": ["self-care", "relationships", "workplace", "emotional-wellness", "assertiveness"]
+  },
+  {
+    "Concept": "Breath",
+    "Journal Prompt": "When today did you hold your breath or breathe shallowly? What was happening? Our breath often reveals what our mind tries to hide—tension, fear, anticipation, or disconnection from our bodies. Think about the situations that make your breathing change: stressful emails, difficult conversations, moments of anxiety or overwhelm. What is your body trying to tell you in those moments? Explore how you might use your breath not just as a stress response, but as a tool for presence and decision-making. What would it be like to pause and breathe before reacting to challenging moments?",
+    "Action 1 (Internal/Reflective)": "Set three random alarms today. When they sound, take three deep, conscious breaths.",
+    "Action 2 (External/Relational)": "During a stressful conversation, pause to take one full breath before responding.",
+    "Imagery Idea 1": "Glowing lungs filling with swirling, colorful air",
+    "Imagery Idea 2": "A person exhaling a stream of peaceful, shimmering light",
+    "Theme_Tags": ["stress-management", "mindfulness", "emotional-wellness", "daily-practice", "anxiety"]
+  },
+  {
+    "Concept": "Candor",
+    "Journal Prompt": "What truth are you avoiding saying because you're afraid of the consequences? Write about what you're not saying, to whom, and why. What do you imagine will happen if you speak this truth—rejection, conflict, judgment, loss? Consider whether these fears are based on evidence or assumption. Think about the cost of not speaking—what are you sacrificing by staying silent? Looking forward, imagine a version of yourself who speaks difficult truths with both honesty and compassion. What would that person say, and how would they say it? What might open up on the other side of that honesty?",
+    "Action 1 (Internal/Reflective)": "Practice direct communication in a low-stakes situation: state what you mean clearly.",
+    "Action 2 (External/Relational)": "Have a conversation you've been avoiding, focusing on clear and kind honesty.",
+    "Imagery Idea 1": "A clear, shimmering bell ringing a pure tone",
+    "Imagery Idea 2": "A vibrant speech bubble with a transparent, honest message",
+    "Theme_Tags": ["relationships", "courage", "communication", "workplace", "authenticity", "truth"]
+  },
+  {
+    "Concept": "Challenge",
+    "Journal Prompt": "What's difficult in your life right now that might be teaching you something important? Instead of resisting or resenting this challenge, get curious about it. What skills is it demanding you develop? What aspects of yourself is it revealing? Recall past difficulties that felt insurmountable at the time—what did they ultimately teach you or strengthen in you? Now think about your current challenge: if you could see it as a teacher rather than an enemy, what would its lesson be? Six months from now, when you've grown through this, what will you be grateful it taught you?",
+    "Action 1 (Internal/Reflective)": "Reframe a current \"problem\" as a question: Instead of \"This is impossible,\" ask \"How might I...?\"",
+    "Action 2 (External/Relational)": "Try one approach to a persistent challenge that you've been resisting or avoiding.",
+    "Imagery Idea 1": "A winding, colorful path leading to a glowing mountain peak",
+    "Imagery Idea 2": "A playful obstacle course with vibrant, encouraging signs",
+    "Theme_Tags": ["personal-growth", "resilience", "perspective-shift", "problem-solving", "career-change", "learning"]
+  },
+  {
+    "Concept": "Choice",
+    "Journal Prompt": "Where in your life are you acting like you have no choice? We often surrender our agency without realizing it, telling ourselves \"I have to\" or \"There's no other option.\" Pick one area where you feel trapped or stuck. List at least three choices you actually have in this situation, even if some seem uncomfortable or unlikely. What's keeping you from exercising your choice—fear, obligation, habit, or something else? Imagine making a choice based purely on what you want, not what you think you \"should\" do. What becomes possible when you reclaim your power to choose? What small choice could you make today that honors your autonomy?",
+    "Action 1 (Internal/Reflective)": "Identify three options you have in a situation where you feel stuck.",
+    "Action 2 (External/Relational)": "Make one small decision today based purely on what you want, not what you \"should\" do.",
+    "Imagery Idea 1": "A figure standing at a glowing crossroads with multiple vibrant paths",
+    "Imagery Idea 2": "Hands reaching toward floating, shimmering options",
+    "Theme_Tags": ["empowerment", "decision-making", "life-transitions", "career-change", "personal-growth", "freedom"]
+  },
+  {
+    "Concept": "Clarity",
+    "Journal Prompt": "What decision have you been avoiding that would bring relief once made? Think about the mental energy you're spending by keeping this decision in limbo—the back-and-forth, the what-ifs, the anxiety of uncertainty. What's making this decision feel so complicated or risky? Sometimes we avoid clarity because we're afraid of closing doors or making the \"wrong\" choice. Write about what you already know, deep down, needs to happen. If you made this decision right now, what would the next three steps be? Imagine yourself one month after having decided—what do you think you'll feel: regret, or relief that you finally moved forward?",
+    "Action 1 (Internal/Reflective)": "Sit in silence for 10 minutes with a specific question, allowing answers to emerge.",
+    "Action 2 (External/Relational)": "Write down your top three priorities right now—what actually matters most?",
+    "Imagery Idea 1": "A perfectly clear, sparkling crystal ball revealing a vibrant future",
+    "Imagery Idea 2": "A lighthouse beam cutting through colorful fog",
+    "Theme_Tags": ["decision-making", "priorities", "life-transitions", "career-change", "goal-setting", "discernment"]
+  },
+  {
+    "Concept": "Collaboration",
+    "Journal Prompt": "When has working with others created something you couldn't have made alone? Think of a specific project, experience, or accomplishment that required collaboration. What did each person bring that you lacked? Reflect honestly on your collaboration style: do you tend to take control, defer to others, compete for credit, or truly co-create? What makes it hard for you to share responsibility or receive help? Looking forward, imagine a project or goal you're currently pursuing alone. Who could you invite in, and what might become possible through their perspectives, skills, or energy? What would you need to release to make room for true partnership?",
+    "Action 1 (Internal/Reflective)": "Reflect on your collaboration style: Do you tend to control, defer, or truly co-create?",
+    "Action 2 (External/Relational)": "Ask someone for help with something you'd normally do alone.",
+    "Imagery Idea 1": "Vibrant, interlocking gears forming a colorful machine",
+    "Imagery Idea 2": "Many small, diverse hands building a tall, shimmering tower together",
+    "Theme_Tags": ["teamwork", "workplace", "relationships", "leadership", "creative-pursuits", "community"]
+  },
+  {
+    "Concept": "Commitment",
+    "Journal Prompt": "What have you committed to that no longer serves you? List your current commitments—to people, projects, habits, beliefs, or ways of being. Which ones feel alive and aligned, and which feel like obligations you're dragging around? Explore why you're staying committed to things that drain you: guilt, fear of disappointing others, sunk cost fallacy, or hope that it will eventually feel right? Now think about something you want to commit to but haven't fully—what's holding you back? Imagine making and keeping one promise to yourself this week. What would you choose, and what would honoring that commitment reveal about your priorities?",
+    "Action 1 (Internal/Reflective)": "Choose one promise to yourself and honor it today, no matter how small.",
+    "Action 2 (External/Relational)": "Communicate a commitment to someone else clearly: \"I will...\" with a specific timeline.",
+    "Imagery Idea 1": "A strong, colorful rope tied around a glowing goal",
+    "Imagery Idea 2": "A person with a determined expression crossing a finish line",
+    "Theme_Tags": ["goal-setting", "priorities", "relationships", "self-discipline", "life-transitions", "integrity"]
+  },
+  {
+    "Concept": "Compassion",
+    "Journal Prompt": "When have you witnessed suffering and turned away from it? This isn't about judgment—we all have moments when someone else's pain feels too much to hold, or we simply don't know what to do. Think about a specific time you looked away: maybe someone struggling in public, a friend's repeated crisis, news of tragedy, or a family member's ongoing hardship. What made you turn away—overwhelm, helplessness, your own pain, or something else? Explore what compassion could look like beyond fixing or solving. What would it mean to simply witness suffering with an open heart? Who in your life needs your compassionate presence right now, and what small offering could you make?",
+    "Action 1 (Internal/Reflective)": "Notice someone struggling today and genuinely wish them ease and peace (even silently).",
+    "Action 2 (External/Relational)": "Offer practical help to someone in need without waiting to be asked.",
+    "Imagery Idea 1": "A gentle hand reaching toward a wounded, glowing heart",
+    "Imagery Idea 2": "A bridge of warm light connecting two beings",
+    "Theme_Tags": ["empathy", "relationships", "grief", "healing", "service", "self-compassion"]
+  },
+  {
+    "Concept": "Connection",
+    "Journal Prompt": "Who have you been taking for granted, assuming they'll always be there? Think about the people who show up consistently in your life—a partner, friend, parent, coworker, or neighbor. When was the last time you really asked how they are and listened deeply? We often save our best attention for new relationships or people we're trying to impress, while those closest to us get our leftovers. Write about what you'd want to tell this person if you couldn't talk to them tomorrow. What do they mean to you that you haven't expressed? What questions would you ask if you approached them with fresh curiosity? Imagine deepening this relationship—what would you need to do differently?",
+    "Action 1 (Internal/Reflective)": "Put away all devices and give someone 15 minutes of undivided attention.",
+    "Action 2 (External/Relational)": "Ask someone a question about what matters most to them right now and truly listen.",
+    "Imagery Idea 1": "A vibrant web of glowing threads connecting diverse figures",
+    "Imagery Idea 2": "Two hands meeting, creating a burst of colorful light",
+    "Theme_Tags": ["relationships", "mindfulness", "gratitude", "social-connection", "family", "listening"]
+  },
+  {
+    "Concept": "Courage",
+    "Journal Prompt": "What would you do if you weren't afraid of judgment, failure, or discomfort? Let yourself dream without the voice of fear editing your words. Write freely about what you'd pursue, say, create, or become if you knew you couldn't fail or be criticized. This exercise reveals what truly matters to you. Looking forward, identify one small, visible act of courage you can practice today that moves you closer to that unfiltered dream, and imagine what your life will look like when you fully embrace it.",
+    "Action 1 (Internal/Reflective)": "Identify one small fear you can face today and take one step toward it.",
+    "Action 2 (External/Relational)": "Speak up for yourself or someone else, even though your voice might shake.",
+    "Imagery Idea 1": "A tiny, brave bird launching itself from a giant, colorful mushroom",
+    "Imagery Idea 2": "A person stepping onto a rainbow tightrope",
+    "Theme_Tags": ["courage", "fear", "vulnerability", "personal-growth", "life-transitions", "career-change"]
+  },
+  {
+    "Concept": "Creativity",
+    "Journal Prompt": "What wants to be expressed through you that you're not allowing? Perhaps it's a new hobby, an idea for a business, or a desire to communicate your feelings differently. We often limit creativity by insisting it be 'good' or 'useful.' Explore the resistance: is it fear of being judged, lack of time, or the need for perfection? Imagine setting aside an hour this week to simply play and make something without a purpose or audience. What might you discover about yourself or your world if you let go of the outcome and simply allowed the joy of expression to lead?",
+    "Action 1 (Internal/Reflective)": "Create something without any purpose or audience—just for the joy of making.",
+    "Action 2 (External/Relational)": "Share a creative idea or piece of work, even if it feels unfinished or imperfect.",
+    "Imagery Idea 1": "A burst of colorful paint exploding from a cosmic palette",
+    "Imagery Idea 2": "Hands molding glowing, swirling clay into new forms",
+    "Theme_Tags": ["creative-pursuits", "self-expression", "innovation", "mindfulness", "play", "career-change"]
+  },
+  {
+    "Concept": "Curiosity",
+    "Journal Prompt": "What assumption are you making right now that might be wrong? We often operate on old beliefs about ourselves, others, or situations that are no longer true—think of it as mental autopilot. Identify one person or situation you feel certain about, and then ask: what if the complete opposite were true? What new information or perspective might you uncover if you replaced certainty with curiosity? Imagine approaching a difficult conversation or challenge with a mind wide open to possibility. How might your questions change the outcome?",
+    "Action 1 (Internal/Reflective)": "Spend 15 minutes exploring something ordinary with fresh eyes, asking \"why?\" and \"what if?\"",
+    "Action 2 (External/Relational)": "Ask someone whose perspective differs from yours to explain their viewpoint—then just listen.",
+    "Imagery Idea 1": "A playful fox peeking from behind a question mark made of glowing vines",
+    "Imagery Idea 2": "A magnifying glass revealing a hidden, vibrant miniature world",
+    "Theme_Tags": ["learning", "perspective-shift", "relationships", "problem-solving", "mindfulness", "exploration"]
+  },
+  {
+    "Concept": "Discernment",
+    "Journal Prompt": "When has your gut feeling been right, even when logic or everyone else told you otherwise? We are taught to prioritize rational thought, but intuition is a powerful form of wisdom. Think about a time you ignored that quiet inner knowing and regretted it, and what the cost was. To strengthen your discernment, practice checking in with your body during important decisions. What does your body tell you—is it a subtle yes (open, light) or a subtle no (tight, heavy)? Imagine a future where you honor the quiet wisdom of your intuition as much as you value data and facts; what better choices might you make?",
+    "Action 1 (Internal/Reflective)": "Before deciding something, list pros and cons, then ask: \"What does my body tell me?\"",
+    "Action 2 (External/Relational)": "Observe a situation from three different perspectives before forming your opinion.",
+    "Imagery Idea 1": "Sparkling, balanced scales weighing colorful truths",
+    "Imagery Idea 2": "An owl with wise, glowing eyes seeing through illusions",
+    "Theme_Tags": ["intuition", "decision-making", "self-trust", "mindfulness", "inner-wisdom", "clarity"]
+  },
+  {
+    "Concept": "Ease",
+    "Journal Prompt": "Where are you creating unnecessary struggle or complexity in your life? We often confuse effort with worthiness, believing that if something is easy, it can't be valuable. Identify one task or goal you've been forcing, then list all the ways you are over-complicating it—is it perfectionism, fear of asking for help, or a belief that the hard way is the *only* way? What would it feel like to choose the simplest, most direct path? Imagine what you could do with the energy you'd save by letting go of this need to struggle. What small thing could you allow to be easy today?",
+    "Action 1 (Internal/Reflective)": "Identify one task you're overcomplicating and find the simplest way to do it.",
+    "Action 2 (External/Relational)": "Ask for help with something you've been forcing yourself to do alone.",
+    "Imagery Idea 1": "A flowing, shimmering river carrying a colorful boat effortlessly",
+    "Imagery Idea 2": "A person gracefully dancing through a complex pattern",
+    "Theme_Tags": ["simplicity", "stress-management", "productivity", "self-compassion", "workplace", "letting-go"]
+  },
+  {
+    "Concept": "Empathy",
+    "Journal Prompt": "When have you made assumptions about someone's experience without truly understanding? We often project our own feelings, fears, or narratives onto others, causing disconnection or judgment. Think about a recent interaction where you struggled to connect with someone who was reacting differently than you would have. What might be happening beneath the surface for them—what invisible struggle are they carrying? Empathy isn't about agreeing; it's about making space for their reality. Imagine asking one simple, open question this week—like \"Help me understand what that feels like for you\"—and then just listening. How might this change your relationship with them?",
+    "Action 1 (Internal/Reflective)": "Listen to someone today trying to feel what they feel, not just hear their words.",
+    "Action 2 (External/Relational)": "Offer comfort to someone struggling, meeting them where they are without trying to fix them.",
+    "Imagery Idea 1": "A bridge of rainbow colors connecting two different islands",
+    "Imagery Idea 2": "Two hearts glowing and mirroring each other",
+    "Theme_Tags": ["relationships", "connection", "communication", "compassion", "social-connection", "understanding"]
+  },
+  {
+    "Concept": "Energy",
+    "Journal Prompt": "What activities and people drain your energy, and which ones fill you up? Think of your energy as a finite, precious resource that needs intentional management, not just recovery. Track your energy levels throughout the day—which activities leave you feeling expansive, and which leave you feeling heavy or resentful? We often feel obligated to spend time on things that deplete us. Looking forward, what one boundary could you set this week to protect your energy more intentionally? Imagine treating your energy not as something to be spent, but something to be invested in what matters most to you.",
+    "Action 1 (Internal/Reflective)": "Notice your energy levels throughout the day and identify the patterns.",
+    "Action 2 (External/Relational)": "Protect your energy by reducing time with one draining activity or person.",
+    "Imagery Idea 1": "A swirling vortex of vibrant colors radiating outward",
+    "Imagery Idea 2": "A playful battery icon charging with sparkling light",
+    "Theme_Tags": ["self-care", "boundaries", "priorities", "productivity", "stress-management", "workplace", "wellbeing"]
+  },
+  {
+    "Concept": "Evolution",
+    "Journal Prompt": "Who were you a year ago, and what beliefs have you outgrown since then? We are constantly evolving, yet we often operate from old scripts and identities. Look back at who you were twelve months ago—your fears, priorities, and daily routines. What's different now? Identify one belief about yourself, your capabilities, or the world that no longer serves you. Imagine shedding that old belief like an outgrown skin. Who does the new, evolved version of you need to be this week to take one step toward your next transformation? What new practice or perspective will you embrace?",
+    "Action 1 (Internal/Reflective)": "Reflect on one belief you've outgrown that no longer serves you.",
+    "Action 2 (External/Relational)": "Try a new approach to something you've always done the same way.",
+    "Imagery Idea 1": "A caterpillar transforming into a vibrant butterfly",
+    "Imagery Idea 2": "A spiral staircase leading upward into a starry sky",
+    "Theme_Tags": ["personal-growth", "transformation", "life-transitions", "self-discovery", "change"]
+  },
+  {
+    "Concept": "Expansion",
+    "Journal Prompt": "What self-imposed limitation are you ready to release? We all carry unseen mental barriers, like \"I'm not smart enough,\" or \"That's not for people like me.\" Write down the story you tell yourself that limits what you can try, pursue, or become. Now, imagine your life without this restriction: what does your day look like, what are you doing, who are you connecting with? What scares you about this expanded version of yourself, and what excites you? Identify one small action you could take this week that would push you slightly beyond your current comfort zone.",
+    "Action 1 (Internal/Reflective)": "Brainstorm five wild possibilities for something you want, without censoring yourself.",
+    "Action 2 (External/Relational)": "Do something that pushes you slightly beyond your comfort zone.",
+    "Imagery Idea 1": "A small, colorful sprout breaking through a cracked wall",
+    "Imagery Idea 2": "A person stretching their arms wide, touching distant, glowing stars",
+    "Theme_Tags": ["personal-growth", "limiting-beliefs", "possibilities", "courage", "career-change", "self-worth"]
+  },
+  {
+    "Concept": "Flow",
+    "Journal Prompt": "When do you lose track of time because you're so absorbed in what you're doing? Think about moments when you've been completely immersed—hours passing like minutes, no self-consciousness, full engagement. What were you doing, and what made it so absorbing? These flow states often point toward what genuinely engages you beyond obligation or external reward. What might you need to clear away—distractions, clutter, mental noise—to create more of this flow in your daily life? Imagine structuring your week to prioritize these activities. How might that bring more meaning and ease to your work or hobbies?",
+    "Action 1 (Internal/Reflective)": "Dedicate a distraction-free block of time to an activity you love.",
+    "Action 2 (External/Relational)": "Eliminate one source of external interruption during your most focused time.",
+    "Imagery Idea 1": "A vibrant, continuous loop of swirling color and motion",
+    "Imagery Idea 2": "A figure riding a wave of shimmering light with a confident smile",
+    "Theme_Tags": ["mindfulness", "productivity", "creative-pursuits", "joy", "focus"]
+  },
+  {
+    "Concept": "Forgiveness",
+    "Journal Prompt": "What past hurt or mistake are you still punishing yourself or someone else for? Holding onto resentment or guilt is like drinking poison and waiting for the other person to suffer—it only burdens you. Think about the energy and mental space this unforgiveness consumes. Forgiveness doesn't mean condoning the act; it means choosing your own peace over the emotional weight of bitterness. What would it feel like to set down this heavy burden? What would you do with the energy you'd reclaim? Write a letter of forgiveness to yourself or another person (you don't have to send it) that sets you free.",
+    "Action 1 (Internal/Reflective)": "Write a letter of forgiveness to yourself or someone else (you don't have to send it).",
+    "Action 2 (External/Relational)": "Let go of one grudge by consciously deciding: \"I'm done carrying this.\"",
+    "Imagery Idea 1": "A broken, colorful chain gently dissolving into shimmering dust",
+    "Imagery Idea 2": "A bright, open hand releasing a heavy, dark stone",
+    "Theme_Tags": ["healing", "letting-go", "relationships", "emotional-wellness", "grief", "self-compassion"]
+  },
+  {
+    "Concept": "Freedom",
+    "Journal Prompt": "What obligation or \"should\" are you ready to release? Make a list of all the \"shoulds\" that govern your life: I should work harder, exercise more, call my parents weekly, keep a cleaner house, be more patient. Which of these came from you, and which were inherited or imposed by others? Explore the guilt or fear that keeps you tied to obligations you've outgrown. What would a truly free day look like for you, and what decisions would you make in that state? Choose one small \"should\" this week to simply stop doing, and reclaim your time and energy.",
+    "Action 1 (Internal/Reflective)": "Identify one obligation you can drop and write out your permission to stop it.",
+    "Action 2 (External/Relational)": "Say \"no\" to one request that feels like a burden, without apology.",
+    "Imagery Idea 1": "A cage door swinging open, releasing a colorful bird into the sky",
+    "Imagery Idea 2": "A figure running joyfully down an endless, open beach",
+    "Theme_Tags": ["empowerment", "choice", "boundaries", "life-transitions", "self-trust", "simplicity"]
+  },
+  {
+    "Concept": "Generosity",
+    "Journal Prompt": "When has giving freely brought you as much joy as receiving? Generosity is not just about money; it’s about sharing your time, attention, knowledge, and compassion. Think about a time you gave without expectation of return—a thoughtful compliment, a helpful introduction, an hour of your time, or genuine presence. How did that act of giving change the quality of your day? What gifts—beyond material goods—do you have in abundance that you haven't been generous enough to share? Imagine living more generously—not just with money, but with praise, time, forgiveness, and presence. What small act of generosity could you offer this week that would delight both you and the recipient?",
+    "Action 1 (Internal/Reflective)": "Offer genuine, specific praise to three different people today.",
+    "Action 2 (External/Relational)": "Give your time or skills to support someone or a cause you care about.",
+    "Imagery Idea 1": "A vibrant watering can sprinkling golden glitter onto a flourishing garden",
+    "Imagery Idea 2": "A hand offering a rainbow gift box that continually replenishes",
+    "Theme_Tags": ["service", "gratitude", "relationships", "abundance", "community", "appreciation"]
+  },
+  {
+    "Concept": "Grace",
+    "Journal Prompt": "When have you been clumsy, imperfect, or wrong—and still been okay? Think about a mistake, failure, or embarrassing moment that felt devastating at the time but that you survived and maybe even learned from. What would have been different if you'd met yourself with grace instead of harsh judgment? Now consider your current self: where are you being unnecessarily hard on yourself for being human? Write about the standard you hold yourself to that you would never apply to a friend. Imagine extending the same gentle acceptance to your own flaws and missteps. What lightness would enter your life if you allowed yourself to be imperfect?",
+    "Action 1 (Internal/Reflective)": "Notice one mistake you make today and respond with gentleness instead of self-criticism.",
+    "Action 2 (External/Relational)": "Offer someone grace for their imperfection or mistake without pointing it out.",
+    "Imagery Idea 1": "A figure stumbling but being caught by soft, glowing hands",
+    "Imagery Idea 2": "A gentle cloud catching a falling star and turning it into light",
+    "Theme_Tags": ["self-compassion", "healing", "acceptance", "emotional-wellness", "vulnerability"]
+  },
+  {
+    "Concept": "Gratitude",
+    "Journal Prompt": "What small, overlooked element of your daily life are you forgetting to be thankful for? We often save our gratitude for big milestones, missing the quiet magic of the ordinary: the warmth of coffee, a functioning internet connection, the sound of rain, the comfort of a chair. Name three things you use or rely on every day without thinking about them. Write about what you would truly lose if they were gone. How could you honor this gift more consciously? Gratitude isn't just about feeling thankful—it's about letting appreciation change how you move through the world. What would shift if you lived from a deeper awareness of what you have?",
+    "Action 1 (Internal/Reflective)": "Write three new things you're grateful for each day this week, focusing on the overlooked.",
+    "Action 2 (External/Relational)": "Express specific gratitude to someone, naming exactly what they did and how it affected you.",
+    "Imagery Idea 1": "A basket overflowing with glowing, heart-shaped items",
+    "Imagery Idea 2": "A person looking up at a sky full of sparkling \"thank you\" messages",
+    "Theme_Tags": ["mindfulness", "appreciation", "abundance", "daily-practice", "joy", "relationships"]
+  },
+  {
+    "Concept": "Grief",
+    "Journal Prompt": "What loss have you not fully allowed yourself to feel? We carry unprocessed grief for so many things: relationships that ended, versions of ourselves we had to leave behind, dreams that died, people we've lost, childhoods we didn't get. Sometimes the easiest way to deal with pain is to bypass it or distract ourselves. Where does this unacknowledged sadness live in your body, and what might it need from you? Write about the loss without censoring the emotion. Imagine offering yourself the same tender care you would give a grieving friend. What act of kindness toward your own pain could you offer this week to allow healing to begin?",
+    "Action 1 (Internal/Reflective)": "Give yourself 15 minutes to feel the sadness or loss without trying to fix or distract yourself.",
+    "Action 2 (External/Relational)": "Share a memory of what you lost with someone who understands and can hold space for you.",
+    "Imagery Idea 1": "A person releasing a small, dark cloud that turns into bright butterflies",
+    "Imagery Idea 2": "A glowing heart that is fractured but held together by shimmering light",
+    "Theme_Tags": ["healing", "emotional-wellness", "loss", "self-compassion", "acceptance", "transitions"]
+  },
+  {
+    "Concept": "Growth",
+    "Journal Prompt": "What's difficult in your life right now that is demanding you grow? Growth is rarely comfortable; it usually comes wrapped in a challenge, a failure, or a period of intense discomfort. Instead of resisting the difficulty, get curious about what new skill, perspective, or strength is trying to emerge through this struggle. Recall past periods of growth—they probably felt terrible at the time but revealed strengths you didn't know you had. Looking back from a year in the future, what will this current challenge have taught you? What capabilities or wisdom will you have gained? How can you work with this discomfort rather than just enduring it?",
+    "Action 1 (Internal/Reflective)": "Reflect on a recent difficulty and ask: \"What is this teaching me?\"",
+    "Action 2 (External/Relational)": "Seek feedback from someone you trust about an area where you want to develop.",
+    "Imagery Idea 1": "A seed cracking open as roots and shoots emerge",
+    "Imagery Idea 2": "A figure climbing stairs that appear as they step",
+    "Theme_Tags": ["personal-growth", "resilience", "learning", "transformation", "self-reflection", "challenge"]
+  },
+  {
+    "Concept": "Honesty",
+    "Journal Prompt": "What are you pretending not to know? This question cuts through all our self-deception and carefully constructed stories. There's something you already know—about a relationship that isn't working, a habit you need to break, or a truth about your own feelings—that you are actively ignoring. Write about this uncomfortable truth and why it's easier to stay in the dark. What are you afraid of losing if you admit it? Looking forward, imagine the relief and clarity that will come when you finally act on this truth. What small, honest step could you take today to honor what you already know?",
+    "Action 1 (Internal/Reflective)": "Practice radical honesty with yourself in your journal about something you've been avoiding.",
+    "Action 2 (External/Relational)": "Tell someone a truth you've been withholding, with kindness and care.",
+    "Imagery Idea 1": "A clear, sparkling glass prism revealing a hidden spectrum of colors",
+    "Imagery Idea 2": "A person gently opening a locked, glowing box",
+    "Theme_Tags": ["truth", "self-trust", "authenticity", "relationships", "candor", "self-discovery"]
+  },
+  {
+    "Concept": "Humility",
+    "Journal Prompt": "When has admitting 'I don't know' or 'I was wrong' opened a door? Think about a specific time when letting go of the need to be right freed up your mind and energy, perhaps in an argument, a creative pursuit, or a professional decision. What was the cost of clinging to certainty before that moment? Now think about where you're currently resisting being taught or advised. Humility isn't about self-deprecation—it's about being teachable and open. Imagine approaching a current project or argument with a beginner's mind, accepting that you might be wrong. What could you learn if you loosened your grip on your own rightness?",
+    "Action 1 (Internal/Reflective)": "Listen to feedback today as information, not criticism—what might be true about it?",
+    "Action 2 (External/Relational)": "Acknowledge a mistake out loud without justifying, defending, or minimizing.",
+    "Imagery Idea 1": "A figure bowing respectfully to a tiny, glowing seed of knowledge",
+    "Imagery Idea 2": "A large, gentle hand catching a small, falling drop of water",
+    "Theme_Tags": ["learning", "leadership", "relationships", "personal-growth", "mindfulness", "acceptance"]
+  },
+  {
+    "Concept": "Interconnection",
+    "Journal Prompt": "How do your daily actions ripple out to affect others and the wider world? We often view ourselves as separate entities, yet every choice we make—from what we consume to what we say—sends out a ripple. Think about one choice you made today that you considered purely personal (e.g., what you ate, how you spent your time, what you bought). Now, trace the consequences of that choice backward and forward. How did it affect other people, resources, or the environment? Imagine a future where you make every decision with the awareness that you are inextricably linked to everything else. What choices would you make differently?",
+    "Action 1 (Internal/Reflective)": "Reflect on how you're connected to your community, ecosystem, or the larger world.",
+    "Action 2 (External/Relational)": "Make one choice today that considers its impact on others or the environment.",
+    "Imagery Idea 1": "A vibrant, intricate web of glowing threads connecting everything",
+    "Imagery Idea 2": "A diverse group of hands holding onto a single, shimmering heart",
+    "Theme_Tags": ["community", "relationships", "empathy", "sustainability", "perspective-shift"]
+  },
+  {
+    "Concept": "Intention",
+    "Journal Prompt": "What are you doing on autopilot that could be transformed by clear intention? Our days are filled with mindless routines—waking up, checking email, eating meals, having conversations. Pick one routine or recurring activity you do without thinking. Now, write down a clear, single-sentence intention for that activity (e.g., \"My intention for this conversation is to listen without interrupting\"). How would this change the experience? Looking forward, imagine approaching your entire week with one overarching intention. What would you choose, and how might that single focus transform the outcomes of your efforts?",
+    "Action 1 (Internal/Reflective)": "Before starting your next task, write a one-sentence intention for its outcome.",
+    "Action 2 (External/Relational)": "Communicate your intention to someone before you work together on a task.",
+    "Imagery Idea 1": "An arrow with a colorful, glowing tip hitting a central target",
+    "Imagery Idea 2": "A person planting a vibrant seed of purpose",
+    "Theme_Tags": ["focus", "purpose", "daily-practice", "mindfulness", "goal-setting"]
+  },
+  {
+    "Concept": "Joy",
+    "Journal Prompt": "What brings you pure delight that you don't allow yourself enough of? Think back to your childhood or a time when you were completely unburdened by responsibilities or self-consciousness. What did you do purely for pleasure? What happened to that part of you? What makes it hard now to do things purely for pleasure: guilt, internalized pressure to optimize every moment, or loss of imagination? Write about what brings you joy without any utility. What would you do if an afternoon suddenly opened up with no responsibilities? Imagine giving yourself regular permission to play. What would you choose, and how might it affect the rest of your life?",
+    "Action 1 (Internal/Reflective)": "Spend 15 minutes on a playful activity with no purpose beyond enjoyment.",
+    "Action 2 (External/Relational)": "Introduce an element of silliness or lightness into a routine task.",
+    "Imagery Idea 1": "A cascade of colorful bubbles and balloons",
+    "Imagery Idea 2": "A person joyfully dancing through a vibrant meadow",
+    "Theme_Tags": ["play", "self-care", "creative-pursuits", "spontaneity", "inner-child", "abundance"]
+  },
+  {
+    "Concept": "Kindness",
+    "Journal Prompt": "How can you be gentle with yourself or someone else today? Think about someone in your life who's struggling or making your life harder—maybe they're irritable, distracted, or difficult. What might be happening beneath their behavior that you can't see? Write about what it would mean to offer them kindness instead of judgment or irritation. Now turn that same lens on yourself: where are you being harsh, critical, or impatient with yourself? What's underneath your own struggles—fear, exhaustion, old wounds? Kindness isn't weakness or permissiveness; it's recognizing our shared humanity and imperfection. What would one act of genuine kindness—toward yourself or another—look and feel like today? How might that small gesture change the quality of your day?",
+    "Action 1 (Internal/Reflective)": "Notice your self-talk and replace one critical thought with a kind one.",
+    "Action 2 (External/Relational)": "Do something thoughtful for someone without them knowing it was you.",
+    "Imagery Idea 1": "A gentle, oversized hand offering a soft blanket to a small creature",
+    "Imagery Idea 2": "A glowing, warm heart radiating light into a cold room",
+    "Theme_Tags": ["self-compassion", "empathy", "relationships", "daily-practice", "compassion", "service"]
+  },
+  {
+    "Concept": "Learning",
+    "Journal Prompt": "What essential knowledge do you currently lack that, if acquired, would significantly change your life or career? We are often too busy to prioritize learning that isn't immediately required. Identify one skill, language, perspective, or piece of information you feel curious about, and then write about why you've put off learning it—is it lack of time, fear of failure, or an old belief that you're 'not good' at that subject? Imagine yourself six months from now having mastered the basics of this new knowledge. What professional or personal opportunities would that create? What is the single smallest action you can take this week to start learning?",
+    "Action 1 (Internal/Reflective)": "Spend 30 minutes learning about a topic you know nothing about.",
+    "Action 2 (External/Relational)": "Ask three different people how they solved a problem you are currently facing.",
+    "Imagery Idea 1": "A colorful key unlocking a glowing, open brain filled with swirling ideas",
+    "Imagery Idea 2": "A wise owl reading a book with shimmering, ancient script",
+    "Theme_Tags": ["curiosity", "growth", "creative-pursuits", "career-change", "exploration", "skill-building"]
+  },
+  {
+    "Concept": "Letting Go",
+    "Journal Prompt": "What are you clinging to that's preventing something new from arriving? Think about what you're holding onto with white knuckles: a relationship that's over, a version of yourself that no longer fits, plans that aren't working out, anger at someone who hurt you, or ideas about how things \"should\" be. What makes it so hard to release this? Often we hold on because we confuse our identity with our possessions or history. Write about the cost of holding on versus the potential relief of releasing. Imagine setting down that heavy burden today. What new possibility, relationship, or energy would rush in to fill the newly created space?",
+    "Action 1 (Internal/Reflective)": "Identify one outcome you're trying to control and consciously release it to fate.",
+    "Action 2 (External/Relational)": "Clear one physical or digital space of things you no longer use or need.",
+    "Imagery Idea 1": "A hand releasing a colorful kite that flies away into open sky",
+    "Imagery Idea 2": "A river washing away a sand drawing, creating a clear surface",
+    "Theme_Tags": ["acceptance", "grief", "transformation", "simplicity", "healing", "emotional-wellness"]
+  },
+  {
+    "Concept": "Listening",
+    "Journal Prompt": "How often do you truly listen versus waiting for your turn to talk? In your next conversation, monitor your internal dialogue: are you formulating a rebuttal, judging the speaker, or thinking about what you’ll say next? Real listening requires setting aside your own agenda to make space for someone else's reality. Think about a relationship that feels strained—could it be that one or both of you don't feel truly heard? Imagine approaching every conversation this week with the single goal of understanding the other person perfectly. How might that simple shift deepen your connections and change what you learn?",
+    "Action 1 (Internal/Reflective)": "In your next conversation, focus entirely on understanding without planning your response.",
+    "Action 2 (External/Relational)": "Ask someone \"What's important to you right now?\" and simply listen for 5 minutes.",
+    "Imagery Idea 1": "A large, colorful ear collecting shimmering sound waves",
+    "Imagery Idea 2": "Two people facing each other with vibrant, open hearts",
+    "Theme_Tags": ["relationships", "communication", "empathy", "mindfulness", "connection", "workplace"]
+  },
+  {
+    "Concept": "Love",
+    "Journal Prompt": "How are you withholding love from yourself or others? We often set conditions on love—I'll love myself when I achieve X, or I'll love you if you change Y. Identify where you've erected conditions. What expectation are you holding onto that blocks the natural flow of love toward someone else? Now, turn that lens inward: what is the most self-critical narrative you have, and how does it prevent you from being kind to yourself? Imagine choosing radical, unconditional love for one person (including yourself) today. What would you stop judging, what would you start accepting, and what action would you take?",
+    "Action 1 (Internal/Reflective)": "Identify one way you can love yourself better and take one action toward it.",
+    "Action 2 (External/Relational)": "Express love to someone in the specific way they most feel loved.",
+    "Imagery Idea 1": "A glowing, oversized heart radiating warm, colorful light",
+    "Imagery Idea 2": "A figure wrapping their arms around a shimmering inner self",
+    "Theme_Tags": ["relationships", "self-compassion", "emotional-wellness", "connection", "healing", "acceptance"]
+  },
+  {
+    "Concept": "Meaning",
+    "Journal Prompt": "What matters so much to you that you would do it even if no one noticed or paid you for it? We often mistake busy-ness or productivity for meaning, but true meaning stems from alignment with our deepest values. Identify the activities that leave you feeling energized and whole, regardless of the outcome. How much time are you dedicating to these meaning-making actions each week versus the tasks that simply drain you? Write about the core values that truly drive you. Looking forward, what one task could you exchange this week for an activity that nourishes your soul and aligns with your deepest sense of purpose?",
+    "Action 1 (Internal/Reflective)": "Reflect on your core values and how they connect to how you spend your time.",
+    "Action 2 (External/Relational)": "Engage in one activity today that feels meaningful rather than merely productive.",
+    "Imagery Idea 1": "A glowing thread weaving through life's experiences",
+    "Imagery Idea 2": "A person discovering a hidden treasure in the ordinary",
+    "Theme_Tags": ["purpose", "values", "fulfillment", "self-discovery", "life-transitions", "career-change"]
+  },
+  {
+    "Concept": "Mindfulness",
+    "Journal Prompt": "Where did your mind wander today when your body was somewhere else? How much of your life are you actually present for versus lost in thoughts about the past or future? Think about your day: during meals, conversations, your commute, time with loved ones—where was your attention actually? What pulls you out of the present: worry, planning, rumination, digital distraction, or simply habit? Write about one moment today that you wish you'd been more present for. What did you miss? Looking forward, what matters enough that you want to show up more fully for it? What small practice could you adopt to anchor yourself to the now?",
+    "Action 1 (Internal/Reflective)": "Practice a 5-minute sensory check-in: 5 things you see, 4 you hear, 3 you feel, 2 you smell, 1 you taste.",
+    "Action 2 (External/Relational)": "Focus completely on the single act of eating your next meal, noticing all the flavors and textures.",
+    "Imagery Idea 1": "A single, focused ray of light illuminating a spot in the forest",
+    "Imagery Idea 2": "A figure sitting calmly in a single, focused moment amid a busy scene",
+    "Theme_Tags": ["awareness", "daily-practice", "stress-management", "presence", "focus", "emotional-wellness"]
+  },
+  {
+    "Concept": "Mystery",
+    "Journal Prompt": "What have you stopped marveling at in your world? We live in a world of complex, beautiful unknowns—from the structure of a leaf to the vastness of the cosmos—yet we tend to seek concrete answers for everything. Identify one area of your life where you're struggling to control or solve a problem. Now, write about what would happen if you accepted that some things are unknowable, or that the answer may be beyond your current understanding. What becomes possible when you stop needing all the answers and simply let yourself be in awe of the unknown? What unexpected beauty might you find if you approached life with more wonder?",
+    "Action 1 (Internal/Reflective)": "Sit with an unanswered question without trying to solve it.",
+    "Action 2 (External/Relational)": "Share something you don't understand with someone, exploring it together without needing answers.",
+    "Imagery Idea 1": "A doorway opening into swirling, glowing cosmos",
+    "Imagery Idea 2": "A figure gazing into an infinite, starry expanse",
+    "Theme_Tags": ["uncertainty", "spirituality", "acceptance", "wonder", "faith", "perspective-shift"]
+  },
+  {
+    "Concept": "Patience",
+    "Journal Prompt": "What are you rushing that needs more time? We live in a world of instant gratification, but some things simply can't be hurried: healing, growth, trust, creativity, meaningful change. Think about what you're impatiently trying to speed up right now—maybe recovery from loss, results from new efforts, a relationship's development, or your own transformation. What drives your impatience: anxiety, comparison to others, fear that time is running out, or discomfort with the in-between? Write about the eventual outcome you are seeking, and what benefits the slow, deliberate process of getting there might offer you. What act of surrender could you practice this week to simply allow the process to unfold?",
+    "Action 1 (Internal/Reflective)": "Practice waiting calmly in one situation today without checking your phone or distracting yourself.",
+    "Action 2 (External/Relational)": "Focus on a long-term goal without needing to see immediate results.",
+    "Imagery Idea 1": "A colorful seedling slowly unfurling its leaves toward the sun",
+    "Imagery Idea 2": "A gentle river carving a path through solid rock",
+    "Theme_Tags": ["growth", "stress-management", "mindfulness", "acceptance", "goal-setting", "resilience"]
+  },
+  {
+    "Concept": "Perspective",
+    "Journal Prompt": "What story are you telling yourself right now that might not be the whole truth? Our minds are expert storytellers, creating narratives that interpret events and assign blame or meaning. Think about a current challenge or conflict. Write the version of the story you are convinced is true, and then write two completely different versions of the story, told from the viewpoint of someone else or from a distant, objective future. Which version creates the most stress, and which offers the most peace or possibility? What becomes possible when you hold your interpretations more lightly, accepting that your perspective might not be the only true one?",
+    "Action 1 (Internal/Reflective)": "Write about a current challenge from three completely different viewpoints.",
+    "Action 2 (External/Relational)": "Ask \"What else could be true about this?\" when you feel certain about something.",
+    "Imagery Idea 1": "A kaleidoscope rotating to reveal new, vibrant patterns",
+    "Imagery Idea 2": "A hot air balloon offering a distant, objective view of a colorful landscape",
+    "Theme_Tags": ["problem-solving", "relationships", "mindfulness", "empathy", "communication", "curiosity"]
+  },
+  {
+    "Concept": "Play",
+    "Journal Prompt": "When was the last time you were completely absorbed in an activity with no goal other than fun? We lose the ability to play as we age, replacing it with productivity and optimization. Recall a memory of uninhibited play—what did it feel like in your body? What are the adult rules you've adopted that block this spontaneous joy? Write down three ways you can incorporate play into your life this week, from five minutes of silliness to a full hour of pure pleasure. Imagine approaching your life with the same lightness and curiosity you had as a child. How might that free up your thinking and creative energy?",
+    "Action 1 (Internal/Reflective)": "Spend 15 minutes on a playful activity with no purpose beyond enjoyment.",
+    "Action 2 (External/Relational)": "Introduce an element of silliness or lightness into a routine task.",
+    "Imagery Idea 1": "A child laughing amidst a cascade of colorful bubbles and balloons",
+    "Imagery Idea 2": "A figure joyfully dancing through a vibrant meadow",
+    "Theme_Tags": ["joy", "creative-pursuits", "self-care", "inner-child", "spontaneity", "rest"]
+  },
+  {
+    "Concept": "Possibility",
+    "Journal Prompt": "What \"impossible\" dream are you dismissing too quickly? We're so good at talking ourselves out of what we want, listing all the reasons something can't happen before we've even tried. Think about a dream you have but have filed under \"unrealistic\"—maybe it's changing careers, writing a book, traveling somewhere, or healing a relationship. Why have you decided it's impossible? Are you confusing difficult with impossible, or likely with certain? Write about this dream as if it were a certainty. Then, work backward: what small, practical step is the *first* thing you would do if you knew this possibility was guaranteed? Take that step this week.",
+    "Action 1 (Internal/Reflective)": "Brainstorm five wild possibilities for something you want, without censoring yourself.",
+    "Action 2 (External/Relational)": "Seek advice from someone who has achieved a goal similar to your 'impossible' dream.",
+    "Imagery Idea 1": "A small, colorful sprout breaking through a cracked wall",
+    "Imagery Idea 2": "A figure reaching for a glowing, impossible star in the sky",
+    "Theme_Tags": ["expansion", "courage", "goal-setting", "career-change", "limiting-beliefs", "innovation"]
+  },
+  {
+    "Concept": "Presence",
+    "Journal Prompt": "How much of your life are you actually present for versus lost in thoughts about the past or future? Think about a daily activity you often do on autopilot (e.g., your commute, washing dishes, a routine meeting). For five minutes, commit to bringing your *entire* awareness to that activity—the sounds, the sights, the sensations in your body. What new details did you notice that you typically miss? Write about the small miracle of being fully present for an ordinary moment. Looking forward, how would your relationships, your work, or your enjoyment of life change if you made a habit of showing up fully for the current moment?",
+    "Action 1 (Internal/Reflective)": "Choose a mundane task and perform it with full, dedicated attention from start to finish.",
+    "Action 2 (External/Relational)": "Engage in a conversation without once looking at a screen or thinking about your next task.",
+    "Imagery Idea 1": "A single, focused ray of light illuminating a spot in the forest",
+    "Imagery Idea 2": "A figure sitting calmly in a single, focused moment amid a busy scene",
+    "Theme_Tags": ["mindfulness", "awareness", "daily-practice", "focus", "connection", "emotional-wellness"]
+  },
+  {
+    "Concept": "Purpose",
+    "Journal Prompt": "What matters so much to you that you'd do it even if no one noticed? We often confuse our *job* with our *purpose*, letting external measures of success define our worth. Write about the activities, ideas, or contributions that give your life shape, gravity, and deep satisfaction, even if they aren't on your resume. When have you felt most aligned, most on-track, and most yourself? What core value was being expressed in that moment? Imagine your life one year from now having intentionally doubled the time you spend on purpose-driven actions. What tangible difference would that make in your life and the lives of those around you?",
+    "Action 1 (Internal/Reflective)": "Reflect on your core values and how they connect to how you spend your time.",
+    "Action 2 (External/Relational)": "Take one action today that aligns with your deeper sense of purpose.",
+    "Imagery Idea 1": "A shining star guiding a colorful ship across a night sky",
+    "Imagery Idea 2": "A person standing tall, illuminated by a glowing inner compass",
+    "Theme_Tags": ["meaning", "values", "self-discovery", "career-change", "legacy", "intention"]
+  },
+  {
+    "Concept": "Reciprocity",
+    "Journal Prompt": "Where are you giving too much, or receiving too little? Healthy relationships—whether personal or professional—require a balance of give and take, yet many of us fall into patterns of over-giving or withholding. Identify a relationship where the balance feels off. Are you sacrificing your own needs to support them, or are you depending too heavily on their support? What does it feel like to ask for what you need, and why do you resist receiving graciously? Imagine a relationship where giving and receiving feel perfectly balanced and easy. What specific request could you make this week to restore that harmony?",
+    "Action 1 (Internal/Reflective)": "Notice the balance of give and take in your relationships—what needs adjusting?",
+    "Action 2 (External/Relational)": "Practice receiving graciously when someone offers help or a compliment.",
+    "Imagery Idea 1": "Two vibrant, open hands passing a glowing heart back and forth",
+    "Imagery Idea 2": "A gentle current flowing both to and from a single point in a colorful stream",
+    "Theme_Tags": ["relationships", "boundaries", "self-care", "connection", "communication", "workplace"]
+  },
+  {
+    "Concept": "Reflection",
+    "Journal Prompt": "What important insight or lesson from the last week did you miss because you didn't pause to reflect? We rush from one experience to the next, treating life like a continuous stream of tasks, and miss the wisdom embedded in our recent actions. Think about one success and one challenge you had last week. What specific choices led to the success, and what choice, if changed, would have altered the challenge? Write about what you learned from these two moments. Looking forward, identify one small adjustment you will make this week based on the wisdom you uncovered. What does a life lived with intentional reflection look like?",
+    "Action 1 (Internal/Reflective)": "Spend 10 minutes today reviewing your last week for insights and lessons.",
+    "Action 2 (External/Relational)": "Ask someone, \"What is the most valuable thing you learned this year?\"",
+    "Imagery Idea 1": "A person gazing into a clear, still pool reflecting the sky",
+    "Imagery Idea 2": "A gentle hand holding a glowing mirror to one’s face",
+    "Theme_Tags": ["learning", "personal-growth", "mindfulness", "daily-practice", "wisdom"]
+  },
+  {
+    "Concept": "Release",
+    "Journal Prompt": "What non-physical weight are you carrying that you are ready to put down? This could be a grudge, a fear, a rigid expectation, a past failure, or a version of yourself you’ve outgrown. Write about what you are carrying and how it feels in your body—heavy, tight, cold, or draining. Why are you afraid to release it? What do you believe you need to hold onto it for? Imagine placing this burden on a floating raft and pushing it out to sea. What emptiness does the release create, and what new energy, lightness, or freedom rushes in to fill that space? What one belief about the past can you consciously release today?",
+    "Action 1 (Internal/Reflective)": "Identify a fear or rigid expectation and write a formal statement releasing it.",
+    "Action 2 (External/Relational)": "Clear one physical or digital space of things associated with a heavy past event.",
+    "Imagery Idea 1": "A figure releasing a heavy, dark cloud that turns into bright, colorful vapor",
+    "Imagery Idea 2": "A butterfly emerging from a chrysalis and flying away",
+    "Theme_Tags": ["letting-go", "healing", "emotional-wellness", "forgiveness", "acceptance", "simplicity"]
+  },
+  {
+    "Concept": "Resilience",
+    "Journal Prompt": "When did you surprise yourself with your strength and ability to bounce back? We tend to focus on our current difficulties and forget the incredible adversities we've already overcome. Think of a specific time when you experienced a setback, failure, or loss, and yet you found a way through it. What resources, skills, or people did you rely on? This memory is proof of your inherent strength. Write down three core truths about your resilience that this experience taught you. Looking forward, how can you draw on that historical strength to face your current challenge? Imagine a future where you trust your ability to recover and adapt implicitly.",
+    "Action 1 (Internal/Reflective)": "List three challenges you overcame and the skills they taught you.",
+    "Action 2 (External/Relational)": "Share a story of your past resilience with someone who is currently struggling.",
+    "Imagery Idea 1": "A flower growing vigorously through a crack in concrete",
+    "Imagery Idea 2": "A colorful tree with deep roots weathering a fierce but beautiful storm",
+    "Theme_Tags": ["personal-growth", "growth", "challenge", "healing", "courage", "self-trust"]
+  },
+  {
+    "Concept": "Rest",
+    "Journal Prompt": "How are you resisting the deep rest you truly need? Rest has been mistakenly categorized as a reward for being productive, rather than a necessary foundation for being human. Think about a time when you genuinely rested—not by scrolling or distracting yourself, but by fully disengaging. What made it hard to stop? Was it guilt, a fear of missing out, or a feeling that you're not allowed to pause? Write down the difference between what *feels* like rest (distraction) and what *is* rest (restoration). Imagine prioritizing true rest this week. What small, restorative act will you commit to, and what might you gain (creativity, clarity, energy) by stopping?",
+    "Action 1 (Internal/Reflective)": "Give yourself permission to truly rest for 30 minutes without guilt or productivity.",
+    "Action 2 (External/Relational)": "Go to bed 30 minutes earlier than usual tonight.",
+    "Imagery Idea 1": "A figure curled peacefully in a glowing hammock",
+    "Imagery Idea 2": "A sleeping creature surrounded by protective, shimmering light",
+    "Theme_Tags": ["self-care", "wellbeing", "stress-management", "mindfulness", "energy", "boundaries"]
+  },
+  {
+    "Concept": "Rhythm",
+    "Journal Prompt": "What does the natural rhythm of your life feel like when you are most aligned? We often try to force our days into an unnatural, frantic pace, ignoring our internal need for ebb and flow. Think about a time when your routine felt sustainable, easy, and deeply satisfying—when did you naturally feel energized, and when did you need to slow down? What elements—a walk outside, quiet reflection, focused work time, social connection—were in place? Write about your ideal daily or weekly rhythm, not as a rigid schedule, but as a graceful dance between action and stillness. What one small ritual could you introduce today to honor your natural tempo?",
+    "Action 1 (Internal/Reflective)": "Identify your most productive and most tired times of day and adjust your schedule accordingly.",
+    "Action 2 (External/Relational)": "Introduce a small, repetitive ritual to mark the transition between work and rest.",
+    "Imagery Idea 1": "A gentle, colorful spiral unwinding gracefully",
+    "Imagery Idea 2": "A pendulum swinging in a balanced, rhythmic arc",
+    "Theme_Tags": ["daily-practice", "mindfulness", "productivity", "self-care", "simplicity", "flow"]
+  },
+  {
+    "Concept": "Self-Care",
+    "Journal Prompt": "What do you *think* self-care is versus what truly restores you? Self-care has become a buzzword often confused with indulgent treats or consumerism, masking the deeper need for boundaries, inner dialogue, and intentional rest. Think about the acts that genuinely nourish your mind, body, and spirit—it might be setting a difficult boundary, saying no to a request, spending time alone, or simply drinking water. What small, unglamorous act of self-care are you neglecting right now? Write about what you would tell a dear friend who was neglecting their own basic needs. Imagine committing to that one simple act today. How would this shift allow you to show up better for others?",
+    "Action 1 (Internal/Reflective)": "Identify one true act of self-care (not distraction) you can complete today.",
+    "Action 2 (External/Relational)": "Say \"no\" to a request or commitment that you know will deplete your energy.",
+    "Imagery Idea 1": "A figure tending to a glowing inner garden with a vibrant watering can",
+    "Imagery Idea 2": "A person curled peacefully inside a protective, shimmering bubble",
+    "Theme_Tags": ["rest", "boundaries", "wellbeing", "emotional-wellness", "priorities", "energy"]
+  },
+  {
+    "Concept": "Self-Compassion",
+    "Journal Prompt": "When are you at your most self-critical, and what harsh words do you use? We often save our toughest judgment for ourselves, saying things we would never tolerate hearing from another person. Identify a recent moment when you failed, made a mistake, or felt embarrassed. Write down the words you used to criticize yourself. Now, imagine a child or a dear friend made that same mistake. What kind, gentle, and encouraging words would you offer them? Write those words to yourself. Self-compassion is not letting yourself off the hook; it’s recognizing that suffering and imperfection are part of the human experience. What does one act of gentle kindness toward your own inner critic look like today?",
+    "Action 1 (Internal/Reflective)": "Notice a critical thought today and consciously replace it with a compassionate one.",
+    "Action 2 (External/Relational)": "Allow yourself to receive support or comfort from someone when you're struggling.",
+    "Imagery Idea 1": "A gentle hand reaching toward a wounded, glowing inner self",
+    "Imagery Idea 2": "A figure wrapping their arms around their own luminous heart",
+    "Theme_Tags": ["healing", "emotional-wellness", "grace", "vulnerability", "acceptance", "self-care"]
+  },
+  {
+    "Concept": "Self-Trust",
+    "Journal Prompt": "Where in your life are you seeking validation or answers outside yourself? We learn to doubt our inner voice by prioritizing external opinions, advice, or trends. Think about a recent decision you made by outsourcing the choice to someone else. What was the outcome, and what did your gut initially tell you? Write about what would happen if you completely trusted your own judgment for 24 hours. What decision or action would change if you honored your intuition implicitly? Imagine a future where your inner voice is your primary guide. What confidence and certainty would you walk with?",
+    "Action 1 (Internal/Reflective)": "Identify one act of self-trust you can take today (following intuition, honoring a boundary).",
+    "Action 2 (External/Relational)": "Make one decision today without consulting anyone else's opinion.",
+    "Imagery Idea 1": "A person standing at a crossroads, illuminated by a glowing inner compass",
+    "Imagery Idea 2": "A figure confidently holding a key to their own locked, glowing door",
+    "Theme_Tags": ["intuition", "decision-making", "courage", "authenticity", "discernment", "empowerment"]
+  },
+  {
+    "Concept": "Simplicity",
+    "Journal Prompt": "What unnecessary complexities are you ready to remove from your life? We often accumulate physical possessions, digital clutter, unnecessary commitments, and over-complicated routines, which drain our time and energy. Identify one area of your life (your schedule, your closet, your phone apps) that feels needlessly complex. Why are you holding onto this clutter—is it fear of loss, fear of missing out, or a feeling of obligation? Imagine living with intentional simplicity, making space for what truly matters. What one item or commitment could you release this week to simplify your life? How would that create a sense of ease and freedom?",
+    "Action 1 (Internal/Reflective)": "Look at one area of your life and ask: \"What's the simplest way?\"",
+    "Action 2 (External/Relational)": "Remove one unnecessary commitment, possession, or complexity from your life.",
+    "Imagery Idea 1": "A single, perfect line drawn with intention",
+    "Imagery Idea 2": "A clear, uncluttered space with one beautiful object",
+    "Theme_Tags": ["letting-go", "simplicity", "priorities", "ease", "minimalism", "boundaries"]
+  },
+  {
+    "Concept": "Sovereignty",
+    "Journal Prompt": "Where are you giving your power away by seeking permission or external approval? Sovereignty is the state of being self-governing, recognizing your inherent right to define your own life, values, and choices. Think about a situation where you feel obligated to follow someone else's rule or opinion. What would happen if you claimed full, unapologetic ownership of your own feelings, needs, and decisions? What's the biggest fear attached to owning your power? Imagine a future where you move through the world guided purely by your inner wisdom and self-trust. What boundary or decision would you make today that affirms your autonomy?",
+    "Action 1 (Internal/Reflective)": "Make one decision today based purely on your inner wisdom, not others' opinions.",
+    "Action 2 (External/Relational)": "Set a boundary that protects your autonomy and wellbeing.",
+    "Imagery Idea 1": "A person wearing a vibrant, glowing crown of self-power",
+    "Imagery Idea 2": "A unique, colorful flag planted firmly on a personal island",
+    "Theme_Tags": ["empowerment", "self-trust", "boundaries", "authenticity", "choice", "self-worth"]
+  },
+  {
+    "Concept": "Spaciousness",
+    "Journal Prompt": "Where do you need more room to breathe, pause, and simply *be*? Our lives are often filled to capacity—with work, activities, digital input, and noise—leaving no space for contemplation or true rest. Identify a moment or a place in your week that feels overly condensed or frantic. What would happen if you intentionally carved out a 15-minute gap in that busy spot? Write about the resistance you feel to creating this gap—is it a fear of being unproductive or a belief that busy equals important? Imagine a life with more spaciousness. What insights, creativity, or calm might you discover in that quiet void? Commit to leaving one 30-minute block open this week with no plan other than to breathe.",
+    "Action 1 (Internal/Reflective)": "Schedule 15 minutes of blank time in your day and allow yourself to do nothing.",
+    "Action 2 (External/Relational)": "Clear one surface (desk, table, shelf) of clutter to create physical space.",
+    "Imagery Idea 1": "A single, colorful object floating serenely in a vast, open blue sky",
+    "Imagery Idea 2": "A figure sitting calmly in the center of an empty, glowing room",
+    "Theme_Tags": ["mindfulness", "rest", "simplicity", "stress-management", "creative-pursuits", "focus"]
+  },
+  {
+    "Concept": "Transformation",
+    "Journal Prompt": "What part of you is actively ready to evolve, but is being held back by fear of change? Transformation is a continuous cycle of ending and beginning, but it often involves discomfort and saying goodbye to an old self. Think about a recent change you're struggling with—a new job, a new home, a new phase of life, or a shifting relationship. What comfort or safety are you losing by leaving the old behind? Visualize yourself having successfully completed the desired transformation—how do you feel, how do you act, and what new possibilities have opened? Write down one brave action your future self would take today to expedite this process.",
+    "Action 1 (Internal/Reflective)": "Visualize yourself having changed in a way you desire—how does it feel?",
+    "Action 2 (External/Relational)": "Take one action today that your future self will thank you for.",
+    "Imagery Idea 1": "A vibrant cocoon opening to reveal a dazzling butterfly",
+    "Imagery Idea 2": "A bridge arching over a dramatic, colorful chasm",
+    "Theme_Tags": ["evolution", "personal-growth", "life-transitions", "change", "courage", "healing"]
+  },
+  {
+    "Concept": "Trust",
+    "Journal Prompt": "Where is your lack of trust keeping you small or stuck? Lack of trust can manifest as micromanagement, anxiety about the future, inability to delegate, or closing off emotionally in relationships. Think about where you're currently trying to control an outcome. What fear is driving that need for control? Write about what you're afraid will happen if you simply choose to trust—to trust the process, trust another person, or trust your own ability to handle whatever comes next. Imagine releasing the white-knuckled grip of control today. What lightness, collaboration, and peace would enter your life if you surrendered to the flow of trust?",
+    "Action 1 (Internal/Reflective)": "Identify one act of self-trust you can take today (following intuition, honoring a boundary).",
+    "Action 2 (External/Relational)": "Delegate a task you usually micromanage or rely on someone else implicitly today.",
+    "Imagery Idea 1": "A figure leaping from a cliff into open, shimmering air",
+    "Imagery Idea 2": "Two hands linked together, forming a strong, colorful circle",
+    "Theme_Tags": ["self-trust", "relationships", "anxiety", "letting-go", "flow", "leadership"]
+  },
+  {
+    "Concept": "Truth",
+    "Journal Prompt": "What is the single most important truth you need to hear right now? Deep down, we know the truth about ourselves, our relationships, and our situations, but we often construct elaborate defenses to avoid it. Sit quietly and ask yourself: what is the truth that feels hardest to admit? Is it about what you want, what you need to end, or what you need to begin? Write this truth down without justifying, explaining, or editing. Now, think about the practical reality of living that truth. What is the very first, non-negotiable action you must take this week to begin honoring this clear, honest realization?",
+    "Action 1 (Internal/Reflective)": "Practice radical honesty with yourself in your journal about something you've been avoiding.",
+    "Action 2 (External/Relational)": "Share a core belief or value that you usually keep hidden with someone you trust.",
+    "Imagery Idea 1": "A bright, clear light cutting through colorful fog and shadows",
+    "Imagery Idea 2": "A single, vibrant drop of pure water falling into a clear basin",
+    "Theme_Tags": ["honesty", "authenticity", "self-trust", "candor", "self-discovery", "clarity"]
+  },
+  {
+    "Concept": "Understanding",
+    "Journal Prompt": "Where are you making demands for certainty and clarity that block deeper understanding? True understanding requires patience, curiosity, and the willingness to look beyond the surface. Think about a relationship, a complex concept, or a challenging situation you are struggling to grasp. What assumption are you making that prevents you from seeing the whole picture? What perspective or piece of information are you actively ignoring? Write down the three questions you would ask if your only goal was pure comprehension, not solving the problem. Imagine holding this situation with an open mind, committed only to knowing it fully. How would that shift the tension you feel?",
+    "Action 1 (Internal/Reflective)": "Read about a historical event or complex concept from two vastly different viewpoints.",
+    "Action 2 (External/Relational)": "Ask someone a challenging question and commit to receiving their answer without defense or immediate rebuttal.",
+    "Imagery Idea 1": "A figure piecing together vibrant, complex geometric shapes",
+    "Imagery Idea 2": "A gentle hand revealing the structure of a glowing, intricate puzzle",
+    "Theme_Tags": ["learning", "empathy", "perspective", "curiosity", "communication", "relationships"]
+  },
+  {
+    "Concept": "Vulnerability",
+    "Journal Prompt": "What secret fear or insecurity are you guarding the most fiercely? Vulnerability is not weakness; it is the courage to be seen authentically, and it is the birthplace of connection. Think about a relationship where you struggle to let down your guard. What is the worst-case scenario if you allowed yourself to be truly seen—with your imperfections, doubts, or difficult emotions? Write out the truth of that fear. Now, choose one person you trust completely. What single small, honest feeling or struggle could you share with them this week to practice vulnerability? Imagine the profound connection that might deepen on the other side of your fear.",
+    "Action 1 (Internal/Reflective)": "Write about a current fear or insecurity with someone you trust.",
+    "Action 2 (External/Relational)": "Allow yourself to be seen imperfectly rather than striving to appear flawless.",
+    "Imagery Idea 1": "A delicate, glowing bubble held gently in an open hand",
+    "Imagery Idea 2": "A person with a transparent heart, revealing true feelings",
+    "Theme_Tags": ["courage", "relationships", "authenticity", "emotional-wellness", "connection", "self-compassion"]
+  },
+  {
+    "Concept": "Wholeheartedness",
+    "Journal Prompt": "Where are you holding back or half-committing in your life? Wholeheartedness is the choice to engage with life with full energy, without waiting for guarantees or perfect conditions. Identify one area—a relationship, a creative project, a health goal, or a daily task—where you're giving 50% effort. Why are you hedging your bets? Is it fear of failure, fear of success, or a belief that you're not worthy of the outcome? Write about what full, 100% commitment to that area would look like. Imagine that feeling of total engagement. What one action can you choose this week that is a true reflection of your full commitment and courage, leaving no room for half-measures?",
+    "Action 1 (Internal/Reflective)": "Choose one task and do it with full attention and effort.",
+    "Action 2 (External/Relational)": "Show up more fully in an area where you've been holding back.",
+    "Imagery Idea 1": "A vibrant, overflowing heart radiating colorful light",
+    "Imagery Idea 2": "A person diving fully into a swirling pool with a joyful splash",
+    "Theme_Tags": ["courage", "commitment", "authenticity", "purpose", "energy", "passion"]
+  },
+  {
+    "Concept": "Wisdom",
+    "Journal Prompt": "What do you know now that you wish you'd known sooner? Wisdom is not just knowledge; it is the deep, integrated understanding that comes from lived experience. Think about a significant mistake or challenge from your past. What was the most painful part of that experience, and what is the single most valuable lesson you extracted from it? Write about that lesson as if you were giving advice to your younger self. How can you now apply that hard-won wisdom to a situation you face today? Imagine a future where you pause before every decision to consult the sage, experienced voice of your past self.",
+    "Action 1 (Internal/Reflective)": "Reflect on a lesson learned from a past mistake or challenge.",
+    "Action 2 (External/Relational)": "Seek counsel from someone whose judgment you respect.",
+    "Imagery Idea 1": "An ancient, glowing tree with deep roots and shimmering leaves",
+    "Imagery Idea 2": "A wise owl with eyes that sparkle with understanding",
+    "Theme_Tags": ["learning", "reflection", "growth", "life-transitions", "experience", "self-reflection"]
+  },
+  {
+    "Concept": "Wonder",
+    "Journal Prompt": "What small, ordinary thing have you stopped marveling at? As adults, we often trade wonder for routine, treating the miraculous as mundane—the way a flower grows, the complexity of a machine, the light in a loved one's eye. Identify a simple object, process, or moment you encounter daily. Now, view it as if you were seeing it for the very first time, noting all the textures, colors, and mechanisms. What makes it amazing? Write about the resistance you feel to letting yourself feel awe—is it fear of seeming childish, or a constant need to categorize and label? Imagine allowing yourself to be filled with wonder just once today. How might that awe reset your perspective and lift your spirit?",
+    "Action 1 (Internal/Reflective)": "Observe something familiar as if seeing it for the first time.",
+    "Action 2 (External/Relational)": "Ask a child what amazes them and try to see it through their eyes.",
+    "Imagery Idea 1": "A figure gazing up at a sky filled with impossible colors",
+    "Imagery Idea 2": "A glowing, vibrant dewdrop reflecting an entire world",
+    "Theme_Tags": ["curiosity", "joy", "mindfulness", "perspective-shift", "awe", "inner-child"]
+  }
+]
